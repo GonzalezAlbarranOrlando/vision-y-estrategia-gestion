@@ -41,22 +41,42 @@
               aria-expanded="false"
             >
               <i class="fa fa-bar-chart"></i>
-              <b>options</b>
+              <b>Servicios</b>
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link class="dropdown-item" to="/">
-                  <p>opt1</p>
+                <router-link class="dropdown-item" to="/ISO_9001:2015">
+                  <p>ISO 9001:2015</p>
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/">
-                  <p>opt2</p>
+                  <p>ISO 37001:2016</p>
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/">
-                  <p>opt3</p>
+                  <p>ISO 31000</p>
+                </router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" to="/">
+                  <p>NMX-R-025-SCFI-2015</p>
+                </router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" to="/">
+                  <p>ISO/TS 54001:2019</p>
+                </router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" to="/">
+                  <p>NOM-035-STPS-2016</p>
+                </router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" to="/">
+                  <p>UNE 93200</p>
                 </router-link>
               </li>
             </ul>
