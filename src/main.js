@@ -8,7 +8,8 @@ import Inicio from './components/pages/Inicio.vue'
 import Contacto from './components/pages/Contacto.vue'
 import Nosotros from './components/pages/Nosotros.vue'
 import Template from './components/pages/Template.vue'
-import ISO90012015 from './components/pages/servicios/ISO_9001_2015/ISO_9001_2015.vue'
+import ISO_9001_2015 from './components/pages/servicios/ISO_9001_2015/ISO_9001_2015.vue'
+import ISO_37001_2016 from './components/pages/servicios/ISO_37001_2016/ISO_37001_2016.vue'
 
 // 2. Define some routes
 // Each route should map to a component.
@@ -17,7 +18,8 @@ const routes = [
     { path: '/contacto', component: Contacto },
     { path: '/nosotros', component: Nosotros },
     { path: '/template', component: Template },
-    { path: '/ISO_9001:2015', component: ISO90012015 },
+    { path: '/ISO_9001:2015', component: ISO_9001_2015 },
+    { path: '/ISO_37001:2016', component: ISO_37001_2016 },
 ]
 
 // 3. Create the router instance and pass the `routes` option

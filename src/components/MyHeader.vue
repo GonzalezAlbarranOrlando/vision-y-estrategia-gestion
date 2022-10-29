@@ -50,7 +50,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" to="/">
+                <router-link class="dropdown-item" to="/ISO_37001:2016">
                   <p>ISO 37001:2016</p>
                 </router-link>
               </li>
