@@ -60,7 +60,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" to="/">
+                <router-link class="dropdown-item" to="/NMX-R-025-SCFI-2015">
                   <p>NMX-R-025-SCFI-2015</p>
                 </router-link>
               </li>
