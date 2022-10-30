@@ -12,6 +12,7 @@ import ISO_9001_2015 from './components/pages/servicios/ISO_9001_2015/ISO_9001_2
 import ISO_37001_2016 from './components/pages/servicios/ISO_37001_2016/ISO_37001_2016.vue'
 import ISO_31000 from './components/pages/servicios/ISO_31000/ISO_31000.vue'
 import NMX_R_025_SCFI_2015 from './components/pages/servicios/NMX_R_025_SCFI_2015/NMX_R_025_SCFI_2015.vue'
+import ISO_TS_54001_2019 from './components/pages/servicios/ISO_TS_54001_2019/ISO_TS_54001_2019.vue'
 
 // 2. Define some routes
 // Each route should map to a component.
@@ -24,6 +25,7 @@ const routes = [
     { path: '/ISO_37001:2016', component: ISO_37001_2016 },
     { path: '/ISO_31000', component: ISO_31000 },
     { path: '/NMX-R-025-SCFI-2015', component: NMX_R_025_SCFI_2015 },
+    { path: '/ISO_TS_54001:2019', component: ISO_TS_54001_2019 },
 ]
 
 // 3. Create the router instance and pass the `routes` option

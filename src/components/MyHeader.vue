@@ -65,7 +65,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" to="/">
+                <router-link class="dropdown-item" to="/ISO_TS_54001:2019">
                   <p>ISO/TS 54001:2019</p>
                 </router-link>
               </li>
