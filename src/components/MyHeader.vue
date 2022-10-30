@@ -70,7 +70,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" to="/">
+                <router-link class="dropdown-item" to="/NOM-035-STPS-2016">
                   <p>NOM-035-STPS-2016</p>
                 </router-link>
               </li>
