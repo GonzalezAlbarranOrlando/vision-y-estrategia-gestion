@@ -163,6 +163,18 @@
             </div>
           </div>
         </div>
+        <div class="timeline__group">
+          <span class="timeline__year time" aria-hidden="true">date</span>
+          <div class="timeline__cards">
+            <div class="timeline__card card">          
+              <div class="card__content">
+                <p>
+                  text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!--timeline end-->
