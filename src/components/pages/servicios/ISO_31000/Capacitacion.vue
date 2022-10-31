@@ -1,15 +1,15 @@
 <template>
   <div class="container-fluid">
-    <h2 class="my-h2">En que consiste</h2>
+    <h2 class="my-h2">Capacitación</h2>
     <div class="general-text">text</div>
   </div>
 </template>
-      
+        
 <script>
 export default {
-  name: "EnQueConsisteView",
+  name: "CapacitacionView",
 };
 </script>
-      
+        
 <style>
 </style>

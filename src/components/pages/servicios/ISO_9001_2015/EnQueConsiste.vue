@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <h2 class="my-h2">EnQueConsiste</h2>
+    <h2 class="my-h2">En que consiste</h2>
     <div class="general-text">text</div>
   </div>
 </template>

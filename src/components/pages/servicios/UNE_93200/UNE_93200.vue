@@ -5,32 +5,45 @@
       <p class="animate__animated animate__slideInDown">UNE 93200</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">Cartas de Servicios</h1>
+    <h1 class="my-h1">subtitle</h1>
     <select
       class="form-select form-select-lg"
       aria-label=".form-select-lg example"
       v-model="selected_opt_UNE_93200"
     >
       <option selected value="enqueconsiste">En que consiste</option>
-      <option value="implementación">Implementación</option>
-      <option value="ventajas">Ventajas</option>
+      <option value="serviciodeimplantacion">Servicio de implantación</option>
+      <option value="consultoria">Consultoría</option>
+      <option value="capacitacion">Capacitación</option>
+      <option value="transparencia">Transparencia</option>
     </select>
     <div class="my-5" v-if="selected_opt_UNE_93200 === 'enqueconsiste'">
       <EnQueConsiste />
     </div>
-    <div class="my-5" v-if="selected_opt_UNE_93200 === 'implementación'">
-      <implementacion />
+    <div
+      class="my-5"
+      v-if="selected_opt_UNE_93200 === 'serviciodeimplantacion'"
+    >
+      <ServicioDeImplantacion />
     </div>
-    <div class="my-5" v-if="selected_opt_UNE_93200 === 'ventajas'">
-      <Ventajas />
+    <div class="my-5" v-if="selected_opt_UNE_93200 === 'consultoria'">
+      <Consultoria />
+    </div>
+    <div class="my-5" v-if="selected_opt_UNE_93200 === 'capacitacion'">
+      <Capacitacion />
+    </div>
+    <div class="my-5" v-if="selected_opt_UNE_93200 === 'transparencia'">
+      <Transparencia />
     </div>
   </div>
 </template>
   
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
-import Implementacion from "./Implementacion.vue";
-import Ventajas from "./Ventajas.vue";
+import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
+import Consultoria from "./Consultoria.vue";
+import Capacitacion from "./Capacitacion.vue";
+import Transparencia from "./Transparencia.vue";
 
 export default {
   name: "UNE_93200",
@@ -39,7 +52,13 @@ export default {
       selected_opt_UNE_93200: "enqueconsiste",
     };
   },
-  components: { EnQueConsiste, Implementacion, Ventajas },
+  components: {
+    EnQueConsiste,
+    ServicioDeImplantacion,
+    Consultoria,
+    Capacitacion,
+    Transparencia,
+  },
 };
 </script>
   
