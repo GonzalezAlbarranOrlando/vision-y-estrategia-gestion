@@ -26,6 +26,7 @@ export default {
 @import "bootstrap/dist/css/bootstrap.css";
 /*My css file(s)*/
 @import "@/assets/css/styles.css";
+@import "@/assets/css/timeline.css";
 /*Roboto font*/
 @import "../node_modules/typeface-roboto/index.css";
 /*Font Awesome Web Application Icons*/
