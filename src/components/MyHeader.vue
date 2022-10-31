@@ -3,7 +3,12 @@
     <div class="container px-4">
       <!--Logo-->
       <router-link aria-current="page" to="/">
-        <img src="@/assets/logo.png" width="180" height="110" alt="logo" />
+        <img
+          src="@/assets/img/gestion.jpg"
+          width="230"
+          height="100"
+          alt="logo"
+        />
       </router-link>
       <!--Navbar toggler-->
       <button
