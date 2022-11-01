@@ -81,13 +81,13 @@
             </ul>
           </li>
           <li class="nav-item px-3">
-            <router-link class="nav-link" to="/contacto">
+            <router-link class="nav-link" to="/">
               <i class="fa fa-book"></i>
               <b>Cursos</b>
             </router-link>
           </li>
           <li class="nav-item px-3">
-            <router-link class="nav-link" to="/contacto">
+            <router-link class="nav-link" to="/">
               <i class="fa fa-newspaper-o"></i>
               <b>Boletines</b>
             </router-link>
