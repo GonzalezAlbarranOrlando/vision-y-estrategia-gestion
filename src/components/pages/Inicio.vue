@@ -120,12 +120,6 @@
         </div>
       </div>
     </div>
-    <div class="alert alert-danger my-5" role="alert">
-      Favor de leer el
-      <a href="/pdf/example.pdf" download class="alert-link"
-        >Aviso de privacidad</a
-      >.
-    </div>
     <router-link to="/template"> Template </router-link>
   </div>
 </template>
