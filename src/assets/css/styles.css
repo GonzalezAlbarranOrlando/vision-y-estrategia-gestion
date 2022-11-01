@@ -152,9 +152,9 @@ div.card-header-nosotros {
 }
 
 #equipo .card-header-nosotros {
-    height: 200px;
+    height: 100px;
     width: 100%;
-    padding: 70px 0;
+    padding: 25px 0;
 }
 
 div.card-body-nosotros {
