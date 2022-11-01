@@ -26,12 +26,6 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item px-3">
-            <router-link class="nav-link active" aria-current="page" to="/">
-              <i class="fa fa-home"></i>
-              <b>Inicio</b>
-            </router-link>
-          </li>
-          <li class="nav-item px-3">
             <router-link class="nav-link" to="/nosotros">
               <i class="fa fa-users"></i>
               <b>Nosotros</b>
@@ -45,7 +39,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <i class="fa fa-bar-chart"></i>
+              <i class="fa fa-globe"></i>
               <b>Servicios</b>
             </a>
             <ul class="dropdown-menu">
@@ -88,7 +82,19 @@
           </li>
           <li class="nav-item px-3">
             <router-link class="nav-link" to="/contacto">
-              <i class="fa fa-phone"></i>
+              <i class="fa fa-book"></i>
+              <b>Cursos</b>
+            </router-link>
+          </li>
+          <li class="nav-item px-3">
+            <router-link class="nav-link" to="/contacto">
+              <i class="fa fa-newspaper-o"></i>
+              <b>Boletines</b>
+            </router-link>
+          </li>
+          <li class="nav-item px-3">
+            <router-link class="nav-link" to="/contacto">
+              <i class="fa fa-envelope-o"></i>
               <b>Contacto</b>
             </router-link>
           </li>

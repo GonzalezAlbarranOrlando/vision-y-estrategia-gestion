@@ -208,6 +208,223 @@
         La <b>ISO 9001</b> es el estándar internacional publicado por <b>ISO</b> (International Organization for Standardization) es útil para establecer de manera efectiva un Sistema de Gestión de la Calidad. ... Por ello, este estándar de calidad puede ser aplicado tanto por un trabajador autónomo, una empresa o una institución sin ánimo de lucro.
       </p>
     </div>
+    <br/>
+    <br/>
+        <!--Accordion mood-->
+        <div class="accordion" id="accordionMood">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading1">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse1"
+            aria-expanded="true"
+            aria-controls="collapse1"
+          >
+            title
+          </button>
+        </h2>
+        <div
+          id="collapse1"
+          class="accordion-collapse collapse show"
+          aria-labelledby="heading1"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">
+            <div class="table-white">
+              <b>Objetivo:</b>
+              <p>
+                text
+              </p>
+            </div>
+            <div class="table-blue">
+              <b>Descripción:</b>
+              <p>
+                text
+              </p>
+            </div>
+            <div class="table-white">
+              <b>Características:</b>
+              <p>
+                <b>Dirigido a:</b>
+                <br/>
+                <b>Garantía de satisfacción:</b>
+                <br/>
+                <b>Constancia:</b>
+              </p>
+            </div>
+            <div class="table-blue">
+              <b>Temario:</b>
+            </div>
+            <div class="table-white">
+              <b>Horas de duración:</b>
+            </div>
+            <div class="table-blue">
+              <b>Fecha de realización:</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse2"
+            aria-expanded="false"
+            aria-controls="collapse2"
+          >
+            Accordion Item #2
+          </button>
+        </h2>
+        <div
+          id="collapse2"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading2"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #2</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading3">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse3"
+            aria-expanded="false"
+            aria-controls="collapse3"
+          >
+            Accordion Item #3
+          </button>
+        </h2>
+        <div
+          id="collapse3"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading3"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #3</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading4">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse4"
+            aria-expanded="false"
+            aria-controls="collapse4"
+          >
+            Accordion Item #4
+          </button>
+        </h2>
+        <div
+          id="collapse4"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading4"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #4</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading5">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse5"
+            aria-expanded="false"
+            aria-controls="collapse5"
+          >
+            Accordion Item #5
+          </button>
+        </h2>
+        <div
+          id="collapse5"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading5"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #5</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading6">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse6"
+            aria-expanded="false"
+            aria-controls="collapse6"
+          >
+            Accordion Item #6
+          </button>
+        </h2>
+        <div
+          id="collapse6"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading6"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #6</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading7">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse7"
+            aria-expanded="false"
+            aria-controls="collapse7"
+          >
+            Accordion Item #7
+          </button>
+        </h2>
+        <div
+          id="collapse7"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading7"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #7</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading8">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse8"
+            aria-expanded="false"
+            aria-controls="collapse8"
+          >
+            Accordion Item #8
+          </button>
+        </h2>
+        <div
+          id="collapse8"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading8"
+          data-bs-parent="#accordionMood"
+        >
+          <div class="accordion-body">text #8</div>
+        </div>
+      </div>
+    </div>
+    <!--Accordion mood end-->
 
   </div>
 </template>
