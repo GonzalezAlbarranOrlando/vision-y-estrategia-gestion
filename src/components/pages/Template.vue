@@ -247,21 +247,24 @@
             <div class="table-white">
               <b>Características:</b>
               <p>
-                <b>Dirigido a:</b>
-                <br/>
-                <b>Garantía de satisfacción:</b>
-                <br/>
-                <b>Constancia:</b>
+                <b>Dirigido a: </b>
+              </p>
+              <p>
+                <b>Garantía de satisfacción: </b>
+              </p>
+              <p>
+                <b>Constancia: </b>
               </p>
             </div>
             <div class="table-blue">
               <b>Temario:</b>
+              <p></p>
             </div>
             <div class="table-white">
-              <b>Horas de duración:</b>
+              <b>Horas de duración: </b>
             </div>
             <div class="table-blue">
-              <b>Fecha de realización:</b>
+              <b>Fecha de realización: </b>
             </div>
           </div>
         </div>

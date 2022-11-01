@@ -5,7 +5,7 @@
       <p class="animate__animated animate__slideInDown">ISO 9001:2015</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">subtitle</h1>
+    <h1 class="my-h1">Sistema de Gestión de la Calidad</h1>
     <select
       class="form-select form-select-lg"
       aria-label=".form-select-lg example"
@@ -13,7 +13,6 @@
     >
       <option selected value="enqueconsiste">En que consiste</option>
       <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="consultoria">Consultoría</option>
       <option value="capacitacion">Capacitación</option>
       <option value="transparencia">Transparencia</option>
     </select>
@@ -25,9 +24,6 @@
       v-if="selected_opt_ISO_9001_2015 === 'serviciodeimplantacion'"
     >
       <ServicioDeImplantacion />
-    </div>
-    <div class="my-5" v-if="selected_opt_ISO_9001_2015 === 'consultoria'">
-      <Consultoria />
     </div>
     <div class="my-5" v-if="selected_opt_ISO_9001_2015 === 'capacitacion'">
       <Capacitacion />
@@ -41,7 +37,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Consultoria from "./Consultoria.vue";
 import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 
@@ -55,7 +50,6 @@ export default {
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Consultoria,
     Capacitacion,
     Transparencia,
   },
