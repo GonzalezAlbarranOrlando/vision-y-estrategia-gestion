@@ -127,6 +127,10 @@ div.derechos-reservados {
     font-size: 11px;
 }
 
+a.download-footer{
+    text-decoration: none;
+    color: white;
+}
 /*footer end*/
 
 /*my shadow*/
