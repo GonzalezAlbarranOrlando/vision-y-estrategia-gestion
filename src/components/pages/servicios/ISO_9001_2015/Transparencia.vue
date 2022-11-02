@@ -6,7 +6,7 @@
         <!--card transparencia-->
         <div class="card">
           <img src="@/assets/img/example.jpg" class="w-100" alt="..." />
-          <div class="card-body ext-box" style="min-height: 250px;">
+          <div class="card-body ext-box" style="min-height: 320px;">
             <div class="int-box">
               <h3 class="my-h3">APOYO FINANCIERO</h3>
               <div class="general-text">
@@ -23,7 +23,7 @@
         <!--card transparencia-->
         <div class="card">
           <img src="@/assets/img/example.jpg" class="w-100" alt="..." />
-          <div class="card-body ext-box" style="min-height: 250px;">
+          <div class="card-body ext-box" style="min-height: 320px;">
             <div class="int-box">
               <h3 class="my-h3">DERECHOS DE LOS SOLICITANTES</h3>
               <div class="general-text">

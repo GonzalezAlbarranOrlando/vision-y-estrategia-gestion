@@ -8,6 +8,8 @@ import Inicio from './components/pages/Inicio.vue'
 import Contacto from './components/pages/Contacto.vue'
 import Nosotros from './components/pages/Nosotros.vue'
 import Template from './components/pages/Template.vue'
+import Boletines from './components/pages/Boletines.vue'
+import Cursos from './components/pages/Cursos.vue'
 import ISO_9001_2015 from './components/pages/servicios/ISO_9001_2015/ISO_9001_2015.vue'
 import ISO_37001_2016 from './components/pages/servicios/ISO_37001_2016/ISO_37001_2016.vue'
 import ISO_31000 from './components/pages/servicios/ISO_31000/ISO_31000.vue'
@@ -23,6 +25,8 @@ const routes = [
     { path: '/contacto', component: Contacto },
     { path: '/nosotros', component: Nosotros },
     { path: '/template', component: Template },
+    { path: '/boletines', component: Boletines },
+    { path: '/cursos', component: Cursos },
     { path: '/ISO_9001:2015', component: ISO_9001_2015 },
     { path: '/ISO_37001:2016', component: ISO_37001_2016 },
     { path: '/ISO_31000', component: ISO_31000 },
