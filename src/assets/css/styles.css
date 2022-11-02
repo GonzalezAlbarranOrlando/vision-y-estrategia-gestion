@@ -70,6 +70,10 @@ div.general-text {
     word-wrap: break-word;
 }
 
+.general-text table{
+    color: gray;
+}
+
 a.download-here {
     color: black;
     text-decoration: none;

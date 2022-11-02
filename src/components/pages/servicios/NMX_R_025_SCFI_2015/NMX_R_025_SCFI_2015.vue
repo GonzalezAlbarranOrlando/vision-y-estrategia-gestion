@@ -15,7 +15,6 @@
     >
       <option selected value="enqueconsiste">En que consiste</option>
       <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="consultoria">Consultoría</option>
       <option value="capacitacion">Capacitación</option>
       <option value="transparencia">Transparencia</option>
     </select>
@@ -30,9 +29,6 @@
       v-if="selected_opt_NMX_R_025_SCFI_2015 === 'serviciodeimplantacion'"
     >
       <ServicioDeImplantacion />
-    </div>
-    <div class="my-5" v-if="selected_opt_NMX_R_025_SCFI_2015 === 'consultoria'">
-      <Consultoria />
     </div>
     <div
       class="my-5"
@@ -52,7 +48,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Consultoria from "./Consultoria.vue";
 import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 
@@ -66,7 +61,6 @@ export default {
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Consultoria,
     Capacitacion,
     Transparencia,
   },

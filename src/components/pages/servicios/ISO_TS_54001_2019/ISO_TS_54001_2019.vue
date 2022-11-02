@@ -5,7 +5,7 @@
       <p class="animate__animated animate__slideInDown">ISO/TS 54001:2019</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">subtitle</h1>
+    <h1 class="my-h1">Sistema de Gestión Electoral</h1>
     <select
       class="form-select form-select-lg"
       aria-label=".form-select-lg example"
