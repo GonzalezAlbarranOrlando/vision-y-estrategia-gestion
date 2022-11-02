@@ -428,6 +428,38 @@
       </div>
     </div>
     <!--Accordion mood end-->
+    <div class="row">
+      <div class="col-sm-6 py-2">
+        <!--card transparencia-->
+        <div class="card">
+          <img src="@/assets/img/example.jpg" class="w-100" alt="..." />
+          <div class="card-body ext-box" style="min-height: 300px;">
+            <div class="int-box">
+              <h2 class="my-h2">Title</h2>
+              <div class="general-text">
+                <p>text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card transparencia end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card transparencia-->
+        <div class="card">
+          <img src="@/assets/img/example.jpg" class="w-100" alt="..." />
+          <div class="card-body ext-box" style="min-height: 300px;">
+            <div class="int-box">
+              <h2 class="my-h2">Title</h2>
+              <div class="general-text">
+                <p>text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card transparencia end-->
+      </div>
+    </div>
 
   </div>
 </template>

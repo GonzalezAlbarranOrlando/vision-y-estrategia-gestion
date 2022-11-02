@@ -1,5 +1,6 @@
 #app {
     font-family: Roboto;
+    word-wrap: break-word;
 }
 
 /*narbar*/
@@ -165,18 +166,6 @@ div.card-body-nosotros {
     align-items: center;
 }
 
-div.card-body-transparencia {
-    word-wrap: break-word;
-    text-align: justify;
-    min-height: 240px;
-}
-
-div.card-body-transparencia-descarga {
-    word-wrap: break-word;
-    text-align: justify;
-    min-height: 140px;
-}
-
 div.card-body-equipo {
     word-wrap: break-word;
     text-align: justify;
@@ -279,3 +268,8 @@ button.btn {
 }
 
 /*Accordion mood end*/
+
+/* vertical center */
+div.ext-box { display: table; width:100%;}
+div.int-box { display: table-cell; vertical-align: middle; }
+/* vertical center end*/
