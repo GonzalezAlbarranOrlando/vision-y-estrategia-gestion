@@ -5,7 +5,9 @@
       <p class="animate__animated animate__slideInDown">NMX-R-025-SCFI-2015</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">subtitle</h1>
+    <h1 class="my-h1">
+      Norma Mexicana en Igualdad Laboral y No Discriminación
+    </h1>
     <select
       class="form-select form-select-lg"
       aria-label=".form-select-lg example"
