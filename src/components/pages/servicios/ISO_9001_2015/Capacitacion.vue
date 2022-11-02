@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <h2 class="my-h2">Capacitación</h2>
-    <!--Accordion mood-->
+    <!--Accordion capacitacion-->
     <div class="accordion" id="accordionCapacitacion">
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading1">
@@ -321,7 +321,7 @@
         </div>
       </div>
     </div>
-    <!--Accordion mood end-->
+    <!--Accordion capacitacion end-->
   </div>
 </template>
         

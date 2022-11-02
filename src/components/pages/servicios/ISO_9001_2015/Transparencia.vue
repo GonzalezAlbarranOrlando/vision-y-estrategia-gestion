@@ -120,10 +120,9 @@
           <img src="@/assets/img/example.jpg" class="w-100" alt="..." />
           <div class="card-body ext-box" style="min-height: 210px;">
             <div class="int-box"> 
-              <h3 class="my-h3">INFORMES DE CENTROS DE TRABAJO QUE HAN IMPLEMENTADO LA NORMA ISO 9001:2015</h3>
-              <div class="general-text">
-                <p>text</p>
-              </div>
+              <h3 class="my-h3">
+                INFORMES DE CENTROS DE TRABAJO QUE HAN IMPLEMENTADO LA NORMA ISO 9001:2015
+              </h3>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-xl">
     <div class="container px-4">
       <!--Logo-->
       <router-link aria-current="page" to="/">
