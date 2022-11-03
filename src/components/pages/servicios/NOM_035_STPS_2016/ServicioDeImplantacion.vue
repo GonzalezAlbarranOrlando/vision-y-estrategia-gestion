@@ -1,7 +1,6 @@
 <template>
   <div class="container-fluid">
-    <h2 class="my-h2">Consultoría</h2>
-    <h3 class="my-h3">Servicio de implantación</h3>
+    <h2 class="my-h2">Servicio de implantación</h2>
     <div class="general-text">
       <p>
         <ol>
@@ -59,7 +58,7 @@
         
 <script>
 export default {
-  name: "CapacitacionView",
+  name: "ServicioDeImplantacionView",
 };
 </script>
         
