@@ -75,7 +75,7 @@
               </li>
               <li>
                 <router-link class="dropdown-item" to="/UNE_93200">
-                  <p>UNE 93200</p>
+                  <p>UNE 93200:2008</p>
                 </router-link>
               </li>
             </ul>
