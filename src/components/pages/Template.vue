@@ -16,7 +16,52 @@
       <option value="opt3">opt3</option>
       <option value="opt4">opt4</option>
     </select>
+    <div>
+      selected: {{selected_opt }}
+    </div>
+    <div class="my-5" v-if="selected_opt === 'opt1'">
+      div opt1
+    </div>
+    <div class="my-5" v-if="selected_opt === 'opt2'">
+      div opt2
+    </div>
+    <div class="my-5" v-if="selected_opt === 'opt3'">
+      div opt3
+    </div>
+    <div class="my-5" v-if="selected_opt === 'opt4'">
+      div opt4
+    </div>
+    <br/>
+    <br/>
+    <br/>
     <!--Select option end-->
+    <select class="form-select" multiple aria-label="multiple select example" v-model="selected_opt_multiple" size="5">
+      <option selected value="One">One</option>
+      <option value="Two">Two</option>
+      <option value="Three">Three</option>
+      <optgroup label="Cars">
+        <option value="Mercedes">Mercedes</option>
+        <option value="Audi">Audi</option>
+      </optgroup>
+    </select>
+    <div>
+      selectedmultiple: {{selected_opt_multiple }}
+    </div>
+    <div class="my-5" v-if="selected_opt_multiple[0] === 'One'">
+      div One
+    </div>
+    <div class="my-5" v-if="selected_opt_multiple[0] === 'Two'">
+      div Two
+    </div>
+    <div class="my-5" v-if="selected_opt_multiple[0] === 'Three'">
+      div Three
+    </div>
+    <div class="my-5" v-if="selected_opt_multiple[0] === 'Mercedes'">
+      div Mercedes
+    </div>
+    <div class="my-5" v-if="selected_opt_multiple[0] === 'Audi'">
+      div Audi
+    </div>
     <!--Heading 1-->
     <h1 class="my-h1">Heading 1</h1>
     <!--General text-->
@@ -470,6 +515,7 @@ export default {
   data() {
     return {
       selected_opt: "opt1",
+      selected_opt_multiple: ["One"],
     };
   },
 };
