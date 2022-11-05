@@ -31,7 +31,7 @@
         <div class="carousel-item active" data-bs-interval="3000">
           <router-link to="/contacto">
             <img
-              src="https://picsum.photos/id/237/700/200"
+              src="https://picsum.photos/id/251/700/200"
               class="d-block w-100"
               alt="..."
             />
@@ -40,7 +40,7 @@
         <div class="carousel-item" data-bs-interval="3000">
           <router-link to="/contacto">
             <img
-              src="https://picsum.photos/id/238/700/200"
+              src="https://picsum.photos/id/264/700/200"
               class="d-block w-100"
               alt="..."
             />
@@ -49,7 +49,7 @@
         <div class="carousel-item" data-bs-interval="3000">
           <router-link to="/contacto">
             <img
-              src="https://picsum.photos/id/239/700/200"
+              src="https://picsum.photos/id/272/700/200"
               class="d-block w-100"
               alt="..."
             />
@@ -109,7 +109,7 @@
         <div class="card">
           <router-link to="/contacto" style="text-decoration: none">
             <img
-              src="https://picsum.photos/id/235/600/300"
+              src="https://picsum.photos/id/234/600/300"
               class="w-100"
               alt="..."
             />
@@ -120,7 +120,6 @@
         </div>
       </div>
     </div>
-    <router-link to="/template"> Template </router-link>
   </div>
 </template>
 

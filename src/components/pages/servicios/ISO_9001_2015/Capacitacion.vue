@@ -252,25 +252,25 @@
                 <ol>
                   <li>Introducción</li>
                   <ul>
-                    <li>•	Definiciones.</li>
+                    <li>Definiciones.</li>
                   </ul>
                   <li>Bases de la auditoría</li>
                   <ul>
-                    <li>•	Beneficios de la auditoría.</li>
-                    <li>•	Factores críticos de éxito.</li>
-                    <li>•	Modelo general de una auditoría.</li>
+                    <li>Beneficios de la auditoría.</li>
+                    <li>Factores críticos de éxito.</li>
+                    <li>Modelo general de una auditoría.</li>
                   </ul>
                   <li>Principios de auditoría</li>
                   <ul>
-                    <li>•	Principios de auditoría.</li>
-                    <li>•	Principios de auditores y auditorías.</li>
-                    <li>•	Ciclo de mejora continua PHVA.</li>
+                    <li>Principios de auditoría.</li>
+                    <li>Principios de auditores y auditorías.</li>
+                    <li>Ciclo de mejora continua PHVA.</li>
                   </ul>
                   <li>Gestión de un programa de auditoría</li>
                   <ul>
-                    <li>•	Tipos de auditorías.</li>
-                    <li>•	Extensión de un programa de auditorías.</li>
-                    <li>•	Contenido de programa de auditoría.</li>
+                    <li>Tipos de auditorías.</li>
+                    <li>Extensión de un programa de auditorías.</li>
+                    <li>Contenido de programa de auditoría.</li>
                     <ul>
                       <li>Objetivos del programa.</li>
                       <li>Determinación y evaluación de los riesgos y oportunidades.</li>
@@ -280,9 +280,9 @@
                   </ul>
                   <li>Implementación de un programa de auditoría</li>
                   <ul>
-                    <li>•	Cómo implementar un programa de auditoría</li>
-                    <li>•	Muestreo.</li>
-                    <li>•	Plan de auditoría. </li>
+                    <li>Cómo implementar un programa de auditoría</li>
+                    <li>Muestreo.</li>
+                    <li>Plan de auditoría. </li>
                   </ul>
                   <li>Realización de una auditoría</li>
                   <ul>
