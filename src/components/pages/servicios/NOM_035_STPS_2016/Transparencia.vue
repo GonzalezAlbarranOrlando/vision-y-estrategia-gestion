@@ -54,7 +54,7 @@
                   Puedes descargar el contrato de prestación de servicios
                   <a
                       class="download-here"
-                      href="/pdf/example.pdf"
+                      href="/pdf/Contrato de prestación de servicios NOM 035 2018.pdf"
                       target="_blank"
                     >
                       aquí </a
@@ -78,7 +78,7 @@
                   Puedes descargar el formato de quejas
                   <a
                       class="download-here"
-                      href="/pdf/example.pdf"
+                      href="/pdf/formato de quejas.pdf"
                       target="_blank"
                     >
                       aquí </a
@@ -102,7 +102,7 @@
                   Puedes descargar el procedimiento de quejas
                   <a
                       class="download-here"
-                      href="/pdf/example.pdf"
+                      href="/pdf/procedimiento de quejas NOM 035 2018.pdf"
                       target="_blank"
                     >
                       aquí </a

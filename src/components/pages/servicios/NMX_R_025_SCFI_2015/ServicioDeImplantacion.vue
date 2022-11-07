@@ -31,7 +31,7 @@
       </p>
       <!--download text-->
       <div class="mb-3" style="text-align: center">
-        <a class="download-text" href="https://www.google.com/" target="_blank">
+        <a class="download-text" href="/pdf/GUIA DE APLICACION 025 2022.pdf" target="_blank">
           Descargue la Guía de Aplicación aquí
           <i class="fa fa-cloud-download download-text"></i>
         </a>
