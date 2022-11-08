@@ -120,6 +120,122 @@
         </div>
       </div>
     </div>
+
+    <h1 class="my-h1 mt-5">Servicios</h1>
+    <div class="row justify-content-center">
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/ISO_9001:2015" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/ISO_9001_2015.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">ISO 9001:2015</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/ISO_37001:2016" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/ISO_37001_2016.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">ISO 37001:2016</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/ISO_31000" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/ISO_31000.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">ISO 31000</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/NMX-R-025-SCFI-2015" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/NMX_R_025_SCFI_2015.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">NMX-R-025-SCFI-2015</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/ISO_TS_54001:2019" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/ISO_TS_54001_2019.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">ISO/TS 54001:2019</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/NOM-035-STPS-2016" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/NOM_035_STPS_2016.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">NOM-035-STPS-2016</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+      <div class="col-sm-6 py-2">
+        <!--card servicios-->
+        <div class="card">
+          <router-link to="/UNE_93200" style="text-decoration: none">
+            <img
+              src="@/assets/img/servicios/UNE_93200.jpeg"
+              class="w-100"
+              alt="..."
+            />
+            <div class="card-header table-title">
+              <h5 class="my-3">UNE 93200:2008</h5>
+            </div>
+          </router-link>
+        </div>
+        <!--card servicios end-->
+      </div>
+    </div>
   </div>
 </template>
 
