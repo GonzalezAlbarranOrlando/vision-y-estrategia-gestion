@@ -9,9 +9,11 @@
       Norma Mexicana en Igualdad Laboral y No Discriminación
     </h1>
     <select
-      class="form-select form-select-lg"
-      aria-label=".form-select-lg example"
+      class="form-select"
+      multiple
+      aria-label="multiple select example"
       v-model="selected_opt_NMX_R_025_SCFI_2015"
+      size="4"
     >
       <option selected value="enqueconsiste">En que consiste</option>
       <option value="serviciodeimplantacion">Servicio de implantación</option>
@@ -20,25 +22,25 @@
     </select>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'enqueconsiste'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'enqueconsiste'"
     >
       <EnQueConsiste />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'serviciodeimplantacion'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'serviciodeimplantacion'"
     >
       <ServicioDeImplantacion />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'capacitacion'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'capacitacion'"
     >
       <Capacitacion />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'transparencia'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'transparencia'"
     >
       <Transparencia />
     </div>
@@ -55,7 +57,7 @@ export default {
   name: "NMX_R_025_SCFI_2015",
   data() {
     return {
-      selected_opt_NMX_R_025_SCFI_2015: "enqueconsiste",
+      selected_opt_NMX_R_025_SCFI_2015: ["enqueconsiste"],
     };
   },
   components: {
