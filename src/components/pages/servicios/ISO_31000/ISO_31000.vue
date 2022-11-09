@@ -5,7 +5,7 @@
       <p class="animate__animated animate__slideInDown">ISO 31000</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">subtitle</h1>
+    <h1 class="my-h1">Sistema Gestión del Riesgo-Directrices</h1>
     <select
       class="form-select"
       multiple

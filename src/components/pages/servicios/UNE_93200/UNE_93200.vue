@@ -2,7 +2,7 @@
   <div class="container">
     <!--Animated title-->
     <div class="animate-div">
-      <p class="animate__animated animate__slideInDown">Norma UNE 93200:2008</p>
+      <p class="animate__animated animate__slideInDown">Norma UNE 93200</p>
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">Cartas de Servicios</h1>

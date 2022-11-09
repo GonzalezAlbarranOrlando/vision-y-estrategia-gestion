@@ -26,30 +26,90 @@
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <router-link to="/contacto">
+          <router-link to="/ISO_9001:2015">
             <img
-              src="https://picsum.photos/id/251/700/200"
+              src="@/assets/img/servicioscarousel/ISO_9001_2015.jpeg"
               class="d-block w-100"
               alt="..."
             />
           </router-link>
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <router-link to="/contacto">
+          <router-link to="/ISO_37001:2016">
             <img
-              src="https://picsum.photos/id/264/700/200"
+              src="@/assets/img/servicioscarousel/ISO_37001_2016.jpeg"
               class="d-block w-100"
               alt="..."
             />
           </router-link>
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <router-link to="/contacto">
+          <router-link to="/ISO_31000">
             <img
-              src="https://picsum.photos/id/272/700/200"
+              src="@/assets/img/servicioscarousel/ISO_31000.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </router-link>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <router-link to="/NMX-R-025-SCFI-2015">
+            <img
+              src="@/assets/img/servicioscarousel/NMX-R-025-SCFI-2015.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </router-link>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <router-link to="/ISO_TS_54001:2019">
+            <img
+              src="@/assets/img/servicioscarousel/ISO_TS_54001_2019.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </router-link>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <router-link to="/NOM-035-STPS-2016">
+            <img
+              src="@/assets/img/servicioscarousel/NOM-035-STPS-2016.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </router-link>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <router-link to="/UNE_93200">
+            <img
+              src="@/assets/img/servicioscarousel/UNE_93200.jpeg"
               class="d-block w-100"
               alt="..."
             />
