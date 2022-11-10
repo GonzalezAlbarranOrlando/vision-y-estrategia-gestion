@@ -14,13 +14,18 @@
       size="4"
     >
       <option selected value="enqueconsiste">En que consiste</option>
+      <option value="preguntasfrecuentes">Preguntas frecuentes</option>
       <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="consultoria">Consultoría</option>
       <option value="capacitacion">Capacitación</option>
-      <option value="transparencia">Transparencia</option>
     </select>
     <div class="my-5" v-if="selected_opt_ISO_31000[0] === 'enqueconsiste'">
       <EnQueConsiste />
+    </div>
+    <div
+      class="my-5"
+      v-if="selected_opt_ISO_31000[0] === 'preguntasfrecuentes'"
+    >
+      <PreguntasFrecuentes />
     </div>
     <div
       class="my-5"
@@ -28,24 +33,17 @@
     >
       <ServicioDeImplantacion />
     </div>
-    <div class="my-5" v-if="selected_opt_ISO_31000[0] === 'consultoria'">
-      <Consultoria />
-    </div>
     <div class="my-5" v-if="selected_opt_ISO_31000[0] === 'capacitacion'">
       <Capacitacion />
-    </div>
-    <div class="my-5" v-if="selected_opt_ISO_31000[0] === 'transparencia'">
-      <Transparencia />
     </div>
   </div>
 </template>
   
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
+import PreguntasFrecuentes from "./PreguntasFrecuentes.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Consultoria from "./Consultoria.vue";
 import Capacitacion from "./Capacitacion.vue";
-import Transparencia from "./Transparencia.vue";
 
 export default {
   name: "ISO_31000",
@@ -56,10 +54,9 @@ export default {
   },
   components: {
     EnQueConsiste,
+    PreguntasFrecuentes,
     ServicioDeImplantacion,
-    Consultoria,
     Capacitacion,
-    Transparencia,
   },
 };
 </script>
