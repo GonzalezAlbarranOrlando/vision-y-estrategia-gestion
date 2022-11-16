@@ -6,8 +6,7 @@
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">
-      Sistema de Gestión de la Calidad a Organizaciones Electorales en todos los
-      niveles de gobierno
+      Sistema de Gestión de la Calidad a Organizaciones Electorales
     </h1>
     <select
       class="form-select"

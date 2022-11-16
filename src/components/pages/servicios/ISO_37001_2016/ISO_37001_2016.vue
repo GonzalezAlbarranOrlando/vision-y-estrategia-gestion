@@ -5,7 +5,7 @@
       <p class="animate__animated animate__slideInDown">ISO 37001:2016</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">Sistema de Gestión Anti-soborno</h1>
+    <h1 class="my-h1">Sistema de Gestión Antisoborno</h1>
     <select
       class="form-select"
       multiple

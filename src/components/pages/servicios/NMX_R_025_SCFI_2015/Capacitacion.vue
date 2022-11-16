@@ -192,11 +192,7 @@
           aria-labelledby="heading3"
           data-bs-parent="#accordionCapacitacion"
         >
-          <div class="accordion-body">
-            <div class="table-white">
-              <b>Objetivo:</b>
-              <p>text</p>
-            </div>
+          <div class="accordion-body">           
             <div class="table-blue">
               <b>Descripción:</b>
               <p>

@@ -5,10 +5,7 @@
       <p class="animate__animated animate__slideInDown">NOM-035-STPS-2016</p>
     </div>
     <!--Animated title end-->
-    <h1 class="my-h1">
-      Factores de riesgo psicosocial en el trabajo-Identificación, análisis y
-      prevención
-    </h1>
+    <h1 class="my-h1">Factores de riesgo psicosocial en el trabajo</h1>
     <select
       class="form-select"
       multiple

@@ -1,12 +1,18 @@
 <template>
   <nav class="navbar navbar-expand-xl">
-    <div class="container px-4">
+    <div
+      class="container px-4 pb-3"
+      style="
+        border-style: none none solid none;
+        border-width: 1px;
+        color: lightgray;
+      "
+    >
       <!--Logo-->
       <router-link aria-current="page" to="/">
         <img
-          src="@/assets/img/gestion.jpg"
-          width="230"
-          height="100"
+          src="@/assets/img/vision-y-estrategia.png"
+          width="180"
           alt="logo"
         />
       </router-link>
