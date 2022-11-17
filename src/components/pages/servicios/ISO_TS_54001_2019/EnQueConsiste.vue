@@ -34,7 +34,7 @@
             <b>ISO 9000 <em>Sistemas de gestión de la calidad</em></b> - <em>Fundamentos y vocabulario </em>proporciona una referencia esencial para la comprensión e implementación adecuadas de la Norma NMX-CC-54001-IMNC-2020; y
           </li>
           <li>
-            <b>b)	ISO 9004 </b><em>Gestión para el éxito sostenido de una organización - Enfoque de gestión de la calidad </em>proporciona orientación para las organizaciones que elijan ir más allá de los requisitos de la Norma Mexicana NMX-CC-54001-IMNC-2020.
+            <b>ISO 9004 </b><em>Gestión para el éxito sostenido de una organización - Enfoque de gestión de la calidad </em>proporciona orientación para las organizaciones que elijan ir más allá de los requisitos de la Norma Mexicana NMX-CC-54001-IMNC-2020.
           </li>
         </ol>
       </p>
@@ -49,7 +49,7 @@
     <div class="general-text">
       <p>
         <ol type="a">
-          <li>a)	Demostrar como organización electoral su capacidad para proporcionar regularmente productos y servicios que satisfagan los requisitos del usuario, los legales y reglamentarios aplicables, y</li>
+          <li>Demostrar como organización electoral su capacidad para proporcionar regularmente productos y servicios que satisfagan los requisitos del usuario, los legales y reglamentarios aplicables, y</li>
           <li>Aspirar como órgano electoral a aumentar la satisfacción del usuario a través de la aplicación eficaz del sistema de gestión de calidad incluidos los procesos de mejora y el aseguramiento de la conformidad con los requisitos del usuario, los legales y reglamentarios aplicables.</li>
         </ol>
       </p>

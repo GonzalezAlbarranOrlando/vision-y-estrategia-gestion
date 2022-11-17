@@ -17,6 +17,21 @@
       <option value="serviciodeimplantacion">Servicio de implantacion</option>
       <option value="capacitacion">Capacitación</option>
       <option value="transparencia">Transparencia</option>
+      <option value="Proceso de implantación">
+        Proceso de implantación en la Norma Oficial Mexicana NOM-035-STPS-2018
+        factores de riesgos Psicosociales en el trabajo-identificación, análisis
+        y prevención en centros de trabajo
+      </option>
+      <option value="Obligaciones del patrón">
+        Obligaciones del patrón conforme a la Norma Oficial Mexicana
+        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+        trabajo-identificación, análisis y prevención
+      </option>
+      <option value="Obligaciones del trabajador">
+        Obligaciones del trabajador de acuerdo con la Norma Oficial Mexicana
+        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+        trabajo-identificación, análisis y prevención
+      </option>
     </select>
     <div
       class="my-5"
@@ -42,6 +57,24 @@
     >
       <Transparencia />
     </div>
+    <div
+      class="my-5"
+      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Proceso de implantación'"
+    >
+      <Procesodeimplantación />
+    </div>
+    <div
+      class="my-5"
+      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Obligaciones del patrón'"
+    >
+      <Obligacionesdelpatrón />
+    </div>
+    <div
+      class="my-5"
+      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Obligaciones del trabajador'"
+    >
+      <Obligacionesdeltrabajador />
+    </div>
   </div>
 </template>
   
@@ -50,6 +83,9 @@ import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
 import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
+import Procesodeimplantación from "./capacitacion/Proceso de implantación.vue";
+import Obligacionesdelpatrón from "./capacitacion/Obligaciones del patrón.vue";
+import Obligacionesdeltrabajador from "./capacitacion/Obligaciones del trabajador.vue";
 
 export default {
   name: "NOM_035_STPS_2016",
@@ -63,6 +99,9 @@ export default {
     ServicioDeImplantacion,
     Capacitacion,
     Transparencia,
+    Procesodeimplantación,
+    Obligacionesdelpatrón,
+    Obligacionesdeltrabajador,
   },
 };
 </script>

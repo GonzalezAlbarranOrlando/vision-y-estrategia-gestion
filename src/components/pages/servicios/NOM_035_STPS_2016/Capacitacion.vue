@@ -15,7 +15,7 @@
           >
             Nombre del Taller: Proceso de implantación en la Norma Oficial
             Mexicana NOM-035-STPS-2018 factores de riesgos Psicosociales en el
-            trabajo-identificación, análisis y prevención en centros de trabajo.
+            trabajo-identificación, análisis y prevención en centros de trabajo
           </button>
         </h2>
         <div
@@ -25,6 +25,12 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Taller: Proceso de implantación en la Norma Oficial
+            Mexicana NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+            trabajo-identificación, análisis y prevención en centros de trabajo
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>Comprender los lineamientos de la norma, analizar y evaluar conforme los parámetros normativos establecidos, así como diseñar un plan de acción enfocado en la identificación y control de los factores de riesgo psicosocial, y en la promoción de un entorno organizacional favorable.</p>
@@ -67,6 +73,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 25 al 29 de abril y del 2, 3, 4, 6 y 9 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -92,6 +100,12 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Curso: Obligaciones del patrón conforme a la Norma
+            Oficial Mexicana NOM-035-STPS-2018 factores de riesgos Psicosociales
+            en el trabajo-identificación, análisis y prevención
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -138,6 +152,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>11, 12 y 13 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -163,6 +179,12 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Curso: Obligaciones del trabajador de acuerdo con la
+            Norma Oficial Mexicana NOM-035-STPS-2018 factores de riesgos
+            Psicosociales en el trabajo-identificación, análisis y prevención
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -213,6 +235,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>1, 2 y 3 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>

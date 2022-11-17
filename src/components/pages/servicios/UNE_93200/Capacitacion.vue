@@ -23,6 +23,8 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">Nombre del curso: Confección y gestión de una carta de servicio</div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -93,6 +95,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>18, 19 y 20 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -116,6 +120,10 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Inducción a la gestión de las cartas de servicio
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -165,6 +173,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>24 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -189,6 +199,11 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Generación y gestión de las cartas de servicio y
+            certificación de compromisos conforme a la Norma UNE 93200:2008
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -255,6 +270,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>25 y 26 de mayo de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -279,6 +296,11 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Aspectos metodológicos en el desarrollo de las
+            cartas de servicios con base en la Norma UNE 93200:2008
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>Conocer los aspectos metodológicos para el desarrollo de las cartas de servicio para su implantación en una organización administrativa pública, órgano autónomo, y entidades y empresas públicas y privadas.</p>
@@ -348,6 +370,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>8, 10, 13 y 14 de junio de 2022
             </div>
+
+
           </div>
         </div>
       </div>
@@ -373,6 +397,12 @@
           data-bs-parent="#accordionMood"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Requisitos, beneficios y ventajas al implantar las
+            cartas de servicios en una organización de la administración
+            pública, organismo autónomo, y entidad y empresa pública y privada.
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -431,6 +461,8 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>4 de julio de 2022
             </div>
+
+
           </div>
         </div>
       </div>

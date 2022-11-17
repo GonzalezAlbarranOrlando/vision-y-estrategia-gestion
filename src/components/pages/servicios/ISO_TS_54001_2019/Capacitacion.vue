@@ -24,6 +24,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Análisis ejecutivo e impacto de la
+            NMX-CC-54001-IMNC-2020 en los organismos electorales
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -141,6 +146,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Fundamentos de la ISO 54001 y metodología general
+            para su implementación
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -254,6 +264,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Mapeo de procesos para el desarrollo de objetivos
+            en las organizaciones electorales
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -366,6 +381,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Gestión de indicadores del sistema electoral
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -517,6 +536,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Desarrollo de la documentación del Sistema de
+            Gestión Electoral
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -588,6 +612,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Herramientas de calidad y mejora continua
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -672,6 +700,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Formación de equipo auditor para la auditoría del
+            sistema de gestión electoral
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -765,6 +798,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Calidad en el servicio electoral
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>

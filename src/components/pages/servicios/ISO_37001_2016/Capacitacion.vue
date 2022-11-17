@@ -24,6 +24,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Introducción a la Norma Internacional ISO 37001:2016
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -141,6 +145,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>28 de abril de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -164,6 +169,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Implementador(a) líder en la norma ISO 37001:2016
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -211,6 +220,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 17 al 20 de mayo de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -234,6 +244,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Auditor(a) líder en la Norma ISO 37001:2016
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -285,6 +299,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>2 y 3 de junio de 2022
             </div>
+
           </div>
         </div>
       </div>

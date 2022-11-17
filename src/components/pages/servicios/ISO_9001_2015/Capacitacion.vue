@@ -24,6 +24,11 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Análisis y constitución de la Norma Internacional
+            ISO 9001:2015
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -126,6 +131,7 @@
               <b>Fecha de realización:</b> Del 20 al 22 y del 25 al 29 de abril
               de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -149,6 +155,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Metodologías para implementar la Norma Internacional ISO 9001:2015
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -193,6 +203,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 23 al 27, 30 y 31 de mayo y 1 de junio de 2022
             </div>
+            
           </div>
         </div>
       </div>
@@ -216,6 +227,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Formación y actualización de auditores internos en la Norma ISO 9001:2015
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -317,6 +332,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 18 al 22, 25, 26 y 27 de julio de 2022
             </div>
+
           </div>
         </div>
       </div>

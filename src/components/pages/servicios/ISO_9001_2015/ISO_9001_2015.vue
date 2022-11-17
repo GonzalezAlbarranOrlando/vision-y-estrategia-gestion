@@ -17,6 +17,22 @@
       <option value="serviciodeimplantacion">Servicio de implantación</option>
       <option value="capacitacion">Capacitación</option>
       <option value="transparencia">Transparencia</option>
+      <option
+        value="Análisis y constitución de la Norma Internacional ISO 9001"
+      >
+        Análisis y constitución de la Norma Internacional ISO 9001:2015
+      </option>
+      <option
+        value="Metodologías para implementar la Norma Internacional ISO 9001"
+      >
+        Metodologías para implementar la Norma Internacional ISO 9001:2015
+      </option>
+      <option
+        value="Formación y actualización de auditores internos en la Norma ISO 9001"
+      >
+        Formación y actualización de auditores internos en la Norma ISO
+        9001:2015
+      </option>
     </select>
     <div class="my-5" v-if="selected_opt_ISO_9001_2015[0] === 'enqueconsiste'">
       <EnQueConsiste />
@@ -33,6 +49,34 @@
     <div class="my-5" v-if="selected_opt_ISO_9001_2015[0] === 'transparencia'">
       <Transparencia />
     </div>
+
+    <div
+      class="my-5"
+      v-if="
+        selected_opt_ISO_9001_2015[0] ===
+        'Análisis y constitución de la Norma Internacional ISO 9001'
+      "
+    >
+      <AnálisisyconstitucióndelaNormaInternacional />
+    </div>
+    <div
+      class="my-5"
+      v-if="
+        selected_opt_ISO_9001_2015[0] ===
+        'Metodologías para implementar la Norma Internacional ISO 9001'
+      "
+    >
+      <MetodologíasparaimplementarlaNormaInternacionalISO9001 />
+    </div>
+    <div
+      class="my-5"
+      v-if="
+        selected_opt_ISO_9001_2015[0] ===
+        'Formación y actualización de auditores internos en la Norma ISO 9001'
+      "
+    >
+      <FormaciónyactualizacióndeauditoresinternosenlaNormaISO9001 />
+    </div>
   </div>
 </template>
   
@@ -41,6 +85,9 @@ import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
 import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
+import AnálisisyconstitucióndelaNormaInternacional from "./capacitacion/Análisis y constitución de la Norma Internacional ISO 9001.vue";
+import MetodologíasparaimplementarlaNormaInternacionalISO9001 from "./capacitacion/Metodologías para implementar la Norma Internacional ISO 9001.vue";
+import FormaciónyactualizacióndeauditoresinternosenlaNormaISO9001 from "./capacitacion/Formación y actualización de auditores internos en la Norma ISO 9001.vue";
 
 export default {
   name: "ISO_9001_2015",
@@ -54,6 +101,9 @@ export default {
     ServicioDeImplantacion,
     Capacitacion,
     Transparencia,
+    AnálisisyconstitucióndelaNormaInternacional,
+    MetodologíasparaimplementarlaNormaInternacionalISO9001,
+    FormaciónyactualizacióndeauditoresinternosenlaNormaISO9001,
   },
 };
 </script>

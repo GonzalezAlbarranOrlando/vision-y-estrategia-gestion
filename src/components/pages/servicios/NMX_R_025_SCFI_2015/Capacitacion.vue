@@ -23,6 +23,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Taller: Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -83,6 +87,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 27 al 29 de abril y 2, 3, 4, 6, 9, 11 y 12 de mayo de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -106,6 +111,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Taller: Herramientas para la mejora continua del centro de trabajo una vez certificado en Norma Mexicana NMX-R-025-SCFI-2015
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -170,6 +179,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 13 al 17 y 20 de junio de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -192,7 +202,11 @@
           aria-labelledby="heading3"
           data-bs-parent="#accordionCapacitacion"
         >
-          <div class="accordion-body">           
+          <div class="accordion-body"> 
+            
+            <div class="col-12 table-title">
+              Nombre del Curso: Formación del equipo auditor
+            </div>
             <div class="table-blue">
               <b>Descripción:</b>
               <p>
@@ -246,6 +260,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>Del 4 al 8 y 11 de julio de 2022
             </div>
+
           </div>
         </div>
       </div>
@@ -269,6 +284,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del Curso: Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación.
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -319,6 +338,7 @@
             <div class="table-blue">
               <b>Fecha de realización: </b>2 de agosto de 2022
             </div>
+            
           </div>
         </div>
       </div>

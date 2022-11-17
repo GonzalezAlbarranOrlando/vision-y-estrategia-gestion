@@ -23,6 +23,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Inducción a la Norma ISO 31000:2018 Sistema de Gestión de Riesgos 
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -168,6 +172,7 @@
             <div class="table-white">
               <b>Horas de duración: </b>20 horas. 5 días (4 horas por día) 
             </div>
+
           </div>
         </div>
       </div>
@@ -191,6 +196,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Pensamiento basado en riesgos con base en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -239,6 +248,7 @@
             <div class="table-white">
               <b>Horas de duración: </b>12 horas. 4 días (3 horas por día) 
             </div>
+
           </div>
         </div>
       </div>
@@ -262,6 +272,10 @@
           data-bs-parent="#accordionCapacitacion"
         >
           <div class="accordion-body">
+
+            <div class="col-12 table-title">
+              Nombre del curso: Formación de equipo auditor en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos 
+            </div>
             <div class="table-white">
               <b>Objetivo:</b>
               <p>
@@ -327,6 +341,7 @@
             <div class="table-white">
               <b>Horas de duración: </b>16 horas. 4 días (4 horas por día) 
             </div>
+            
           </div>
         </div>
       </div>
