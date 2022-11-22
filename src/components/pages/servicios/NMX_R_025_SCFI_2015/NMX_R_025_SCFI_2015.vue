@@ -1,5 +1,81 @@
 <template>
   <div class="container">
+    <!--sidenav -->
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="width: 300px"
+      v-if="boolean_sidenav"
+    >
+      <button
+        type="button"
+        class="btn-close closebtn"
+        aria-label="Close"
+        v-on:click="boolean_sidenav = false"
+      ></button>
+      <div class="sidenav-blue">
+        <b>NMX-R-025-SCFI-2015</b>
+      </div>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NMX_R_025_SCFI_2015 = 'En que consiste'"
+      >
+        En que consiste
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 = 'Servicio de implantación'
+        "
+      >
+        Servicio de implantación
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NMX_R_025_SCFI_2015 = 'Transparencia'"
+      >
+        Transparencia
+      </button>
+      <div class="sidenav-blue"><b>Capacitación:</b></div>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 =
+            'Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo'
+        "
+      >
+        Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 =
+            'Herramientas para la mejora continua del centro de trabajo una vez certificado en Norma Mexicana NMX-R-025-SCFI-2015'
+        "
+      >
+        Herramientas para la mejora continua del centro de trabajo una vez
+        certificado en Norma Mexicana NMX-R-025-SCFI-2015
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 = 'Formación del equipo auditor'
+        "
+      >
+        Formación del equipo auditor
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 =
+            'Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación'
+        "
+      >
+        Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y
+        No Discriminación
+      </button>
+    </div>
+    <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">NMX-R-025-SCFI-2015</p>
@@ -8,60 +84,34 @@
     <h1 class="my-h1">
       Norma Mexicana en Igualdad Laboral y No Discriminación
     </h1>
-    <select
-      class="form-select"
-      multiple
-      aria-label="multiple select example"
-      v-model="selected_opt_NMX_R_025_SCFI_2015"
-      size="4"
+    <span
+      style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"
+      v-on:click="boolean_sidenav = true"
+      >&#9776; Menú de opciones</span
     >
-      <option selected value="enqueconsiste">En que consiste</option>
-      <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="capacitacion">Capacitación</option>
-      <option value="transparencia">Transparencia</option>
-      <option value="Implantación de Norma Mexicana">
-        Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo
-      </option>
-      <option value="Herramientas para la mejora continua">
-        Herramientas para la mejora continua del centro de trabajo una vez
-        certificado en Norma Mexicana NMX-R-025-SCFI-2015
-      </option>
-      <option value="Formación del equipo auditor">
-        Formación del equipo auditor
-      </option>
-      <option value="Inducción a la Norma Mexicana">
-        Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y
-        No Discriminación.
-      </option>
-    </select>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'enqueconsiste'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'En que consiste'"
     >
       <EnQueConsiste />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'serviciodeimplantacion'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'Servicio de implantación'"
     >
       <ServicioDeImplantacion />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'capacitacion'"
-    >
-      <Capacitacion />
-    </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_NMX_R_025_SCFI_2015[0] === 'transparencia'"
+      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'Transparencia'"
     >
       <Transparencia />
     </div>
     <div
       class="my-5"
       v-if="
-        selected_opt_NMX_R_025_SCFI_2015[0] === 'Implantación de Norma Mexicana'
+        selected_opt_NMX_R_025_SCFI_2015 ===
+        'Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo'
       "
     >
       <ImplantacióndeNormaMexicana />
@@ -69,24 +119,23 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_NMX_R_025_SCFI_2015[0] ===
-        'Herramientas para la mejora continua'
+        selected_opt_NMX_R_025_SCFI_2015 ===
+        'Herramientas para la mejora continua del centro de trabajo una vez certificado en Norma Mexicana NMX-R-025-SCFI-2015'
       "
     >
       <Herramientasparalamejoracontinua />
     </div>
     <div
       class="my-5"
-      v-if="
-        selected_opt_NMX_R_025_SCFI_2015[0] === 'Formación del equipo auditor'
-      "
+      v-if="selected_opt_NMX_R_025_SCFI_2015 === 'Formación del equipo auditor'"
     >
       <Formacióndelequipoauditor />
     </div>
     <div
       class="my-5"
       v-if="
-        selected_opt_NMX_R_025_SCFI_2015[0] === 'Inducción a la Norma Mexicana'
+        selected_opt_NMX_R_025_SCFI_2015 ===
+        'Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación'
       "
     >
       <InducciónalaNormaMexicana />
@@ -97,7 +146,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 import ImplantacióndeNormaMexicana from "./capacitacion/Implantación de Norma Mexicana.vue";
 import Herramientasparalamejoracontinua from "./capacitacion/Herramientas para la mejora continua.vue";
@@ -108,13 +156,13 @@ export default {
   name: "NMX_R_025_SCFI_2015",
   data() {
     return {
-      selected_opt_NMX_R_025_SCFI_2015: ["enqueconsiste"],
+      selected_opt_NMX_R_025_SCFI_2015: "En que consiste",
+      boolean_sidenav: true,
     };
   },
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Capacitacion,
     Transparencia,
     ImplantacióndeNormaMexicana,
     Herramientasparalamejoracontinua,

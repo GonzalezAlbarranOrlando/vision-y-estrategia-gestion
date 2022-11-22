@@ -1,5 +1,60 @@
 <template>
   <div class="container">
+    <!--sidenav -->
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="width: 300px"
+      v-if="boolean_sidenav"
+    >
+      <button
+        type="button"
+        class="btn-close closebtn"
+        aria-label="Close"
+        v-on:click="boolean_sidenav = false"
+      ></button>
+      <div class="sidenav-blue">
+        <b>title</b>
+      </div>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt1'">
+        opt1
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt2'">
+        opt2
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt3'">
+        opt3
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt4'">
+        opt4
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt5'">
+        opt5
+      </button>
+      <div class="sidenav-blue"><b>Capacitación:</b></div>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt6'">
+        opt6
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt7'">
+        opt7
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt8'">
+        opt8
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt9'">
+        opt9
+      </button>
+      <button class="text-truncate" v-on:click="selected_sidenav = 'opt10'">
+        opt10
+      </button>
+      <a href="#" class="text-truncate">VW</a>
+    </div>
+    <span
+      style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"
+      v-on:click="boolean_sidenav = true"
+      >&#9776; Menú de opciones</span
+    >
+    <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">Animated title</p>
@@ -516,6 +571,8 @@ export default {
     return {
       selected_opt: "opt1",
       selected_opt_multiple: ["One"],
+      boolean_sidenav: true,
+      selected_sidenav: "opt1",
     };
   },
 };

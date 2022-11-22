@@ -1,65 +1,117 @@
 <template>
   <div class="container">
+    <!--sidenav -->
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="width: 300px"
+      v-if="boolean_sidenav"
+    >
+      <button
+        type="button"
+        class="btn-close closebtn"
+        aria-label="Close"
+        v-on:click="boolean_sidenav = false"
+      ></button>
+      <div class="sidenav-blue">
+        <b>Norma UNE 93200</b>
+      </div>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_UNE_93200 = 'En que consiste'"
+      >
+        En que consiste
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_UNE_93200 = 'Servicio de implantación'"
+      >
+        Servicio de implantación
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_UNE_93200 = 'Transparencia'"
+      >
+        Transparencia
+      </button>
+      <div class="sidenav-blue"><b>Capacitación:</b></div>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_UNE_93200 =
+            'Confección y gestión de una carta de servicio'
+        "
+      >
+        Confección y gestión de una carta de servicio
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_UNE_93200 =
+            'Inducción a la gestión de las cartas de servicio'
+        "
+      >
+        Inducción a la gestión de las cartas de servicio
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_UNE_93200 =
+            'Generación y gestión de las cartas de servicio y certificación'
+        "
+      >
+        Generación y gestión de las cartas de servicio y certificación de
+        compromisos conforme a la Norma UNE 93200:2008
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_UNE_93200 =
+            'Aspectos metodológicos en el desarrollo de las cartas de servicios'
+        "
+      >
+        Aspectos metodológicos en el desarrollo de las cartas de servicios con
+        base en la Norma UNE 93200:2008
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_UNE_93200 = 'Requisitos, beneficios y ventajas'
+        "
+      >
+        Requisitos, beneficios y ventajas al implantar las cartas de servicios
+        en una organización de la administración pública, organismo autónomo, y
+        entidad y empresa pública y privada
+      </button>
+    </div>
+    <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">Norma UNE 93200</p>
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">Cartas de Servicios</h1>
-    <select
-      class="form-select"
-      multiple
-      aria-label="multiple select example"
-      v-model="selected_opt_UNE_93200"
-      size="4"
+    <span
+      style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"
+      v-on:click="boolean_sidenav = true"
+      >&#9776; Menú de opciones</span
     >
-      <option selected value="enqueconsiste">En que consiste</option>
-      <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="capacitacion">Capacitación</option>
-      <option value="transparencia">Transparencia</option>
-      <option value="Confección y gestión de una carta de servicio">
-        Confección y gestión de una carta de servicio
-      </option>
-      <option value="Inducción a la gestión de las cartas de servicio">
-        Inducción a la gestión de las cartas de servicio
-      </option>
-      <option
-        value="Generación y gestión de las cartas de servicio y certificación"
-      >
-        Generación y gestión de las cartas de servicio y certificación de
-        compromisos conforme a la Norma UNE 93200:2008
-      </option>
-      <option
-        value="Aspectos metodológicos en el desarrollo de las cartas de servicios"
-      >
-        Aspectos metodológicos en el desarrollo de las cartas de servicios con
-        base en la Norma UNE 93200:2008
-      </option>
-      <option value="Requisitos beneficios y ventajas">
-        Requisitos, beneficios y ventajas al implantar las cartas de servicios
-        en una organización de la administración pública, organismo autónomo, y
-        entidad y empresa pública y privada
-      </option>
-    </select>
-    <div class="my-5" v-if="selected_opt_UNE_93200[0] === 'enqueconsiste'">
+    <div class="my-5" v-if="selected_opt_UNE_93200 === 'En que consiste'">
       <EnQueConsiste />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_UNE_93200[0] === 'serviciodeimplantacion'"
+      v-if="selected_opt_UNE_93200 === 'Servicio de implantación'"
     >
       <ServicioDeImplantacion />
     </div>
-    <div class="my-5" v-if="selected_opt_UNE_93200[0] === 'capacitacion'">
-      <Capacitacion />
-    </div>
-    <div class="my-5" v-if="selected_opt_UNE_93200[0] === 'transparencia'">
+    <div class="my-5" v-if="selected_opt_UNE_93200 === 'Transparencia'">
       <Transparencia />
     </div>
     <div
       class="my-5"
       v-if="
-        selected_opt_UNE_93200[0] ===
+        selected_opt_UNE_93200 ===
         'Confección y gestión de una carta de servicio'
       "
     >
@@ -68,7 +120,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_UNE_93200[0] ===
+        selected_opt_UNE_93200 ===
         'Inducción a la gestión de las cartas de servicio'
       "
     >
@@ -77,7 +129,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_UNE_93200[0] ===
+        selected_opt_UNE_93200 ===
         'Generación y gestión de las cartas de servicio y certificación'
       "
     >
@@ -86,7 +138,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_UNE_93200[0] ===
+        selected_opt_UNE_93200 ===
         'Aspectos metodológicos en el desarrollo de las cartas de servicios'
       "
     >
@@ -94,7 +146,7 @@
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_UNE_93200[0] === 'Requisitos beneficios y ventajas'"
+      v-if="selected_opt_UNE_93200 === 'Requisitos, beneficios y ventajas'"
     >
       <Requisitosbeneficiosyventajas />
     </div>
@@ -104,7 +156,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 import Confecciónygestióndeunacartadeservicio from "./capacitacion/Confección y gestión de una carta de servicio.vue";
 import Inducciónalagestióndelascartasdeservicio from "./capacitacion/Inducción a la gestión de las cartas de servicio.vue";
@@ -116,13 +167,13 @@ export default {
   name: "UNE_93200",
   data() {
     return {
-      selected_opt_UNE_93200: ["enqueconsiste"],
+      boolean_sidenav: true,
+      selected_opt_UNE_93200: "En que consiste",
     };
   },
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Capacitacion,
     Transparencia,
     Confecciónygestióndeunacartadeservicio,
     Inducciónalagestióndelascartasdeservicio,

@@ -183,7 +183,7 @@
 
     <h1 class="my-h1 mt-5">Servicios</h1>
     <div class="row justify-content-center">
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/ISO_9001:2015" style="text-decoration: none">
@@ -199,7 +199,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/ISO_37001:2016" style="text-decoration: none">
@@ -215,7 +215,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/ISO_31000" style="text-decoration: none">
@@ -231,7 +231,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/NMX-R-025-SCFI-2015" style="text-decoration: none">
@@ -247,7 +247,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/ISO_TS_54001:2019" style="text-decoration: none">
@@ -263,7 +263,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/NOM-035-STPS-2016" style="text-decoration: none">
@@ -279,7 +279,7 @@
         </div>
         <!--card servicios end-->
       </div>
-      <div class="col-sm-6 py-2">
+      <div class="col-sm-4 py-2">
         <!--card servicios-->
         <div class="card">
           <router-link to="/UNE_93200" style="text-decoration: none">

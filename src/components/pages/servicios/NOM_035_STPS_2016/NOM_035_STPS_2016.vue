@@ -1,77 +1,109 @@
 <template>
   <div class="container">
+    <!--sidenav -->
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="width: 300px"
+      v-if="boolean_sidenav"
+    >
+      <button
+        type="button"
+        class="btn-close closebtn"
+        aria-label="Close"
+        v-on:click="boolean_sidenav = false"
+      ></button>
+      <div class="sidenav-blue">
+        <b>NOM-035-STPS-2016</b>
+      </div>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NOM_035_STPS_2016 = 'En que consiste'"
+      >
+        En que consiste
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Servicio de implantación'"
+      >
+        Servicio de implantación
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Transparencia'"
+      >
+        Transparencia
+      </button>
+      <div class="sidenav-blue"><b>Capacitación:</b></div>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Proceso de implantación'"
+      >
+        Proceso de implantación en la Norma Oficial Mexicana NOM-035-STPS-2018
+        factores de riesgos Psicosociales en el trabajo-identificación, análisis
+        y prevención en centros de trabajo
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Obligaciones del patrón'"
+      >
+        Obligaciones del patrón conforme a la Norma Oficial Mexicana
+        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+        trabajo-identificación, análisis y prevenci
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'Obligaciones del trabajador'
+        "
+      >
+        Obligaciones del trabajador de acuerdo con la Norma Oficial Mexicana
+        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+        trabajo-identificación, análisis y prevención
+      </button>
+    </div>
+    <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">NOM-035-STPS-2016</p>
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">Factores de riesgo psicosocial en el trabajo</h1>
-    <select
-      class="form-select"
-      multiple
-      aria-label="multiple select example"
-      v-model="selected_opt_NOM_035_STPS_2016"
-      size="4"
+    <span
+      style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"
+      v-on:click="boolean_sidenav = true"
+      >&#9776; Menú de opciones</span
     >
-      <option selected value="enqueconsiste">En que consiste</option>
-      <option value="serviciodeimplantacion">Servicio de implantacion</option>
-      <option value="capacitacion">Capacitación</option>
-      <option value="transparencia">Transparencia</option>
-      <option value="Proceso de implantación">
-        Proceso de implantación en la Norma Oficial Mexicana NOM-035-STPS-2018
-        factores de riesgos Psicosociales en el trabajo-identificación, análisis
-        y prevención en centros de trabajo
-      </option>
-      <option value="Obligaciones del patrón">
-        Obligaciones del patrón conforme a la Norma Oficial Mexicana
-        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
-        trabajo-identificación, análisis y prevención
-      </option>
-      <option value="Obligaciones del trabajador">
-        Obligaciones del trabajador de acuerdo con la Norma Oficial Mexicana
-        NOM-035-STPS-2018 factores de riesgos Psicosociales en el
-        trabajo-identificación, análisis y prevención
-      </option>
-    </select>
     <div
       class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'enqueconsiste'"
+      v-if="selected_opt_NOM_035_STPS_2016 === 'En que consiste'"
     >
       <EnQueConsiste />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'serviciodeimplantacion'"
+      v-if="selected_opt_NOM_035_STPS_2016 === 'Servicio de implantación'"
     >
       <ServicioDeImplantacion />
     </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'capacitacion'"
-    >
-      <Capacitacion />
-    </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'transparencia'"
-    >
+    <div class="my-5" v-if="selected_opt_NOM_035_STPS_2016 === 'Transparencia'">
       <Transparencia />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Proceso de implantación'"
+      v-if="selected_opt_NOM_035_STPS_2016 === 'Proceso de implantación'"
     >
       <Procesodeimplantación />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Obligaciones del patrón'"
+      v-if="selected_opt_NOM_035_STPS_2016 === 'Obligaciones del patrón'"
     >
       <Obligacionesdelpatrón />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_NOM_035_STPS_2016[0] === 'Obligaciones del trabajador'"
+      v-if="selected_opt_NOM_035_STPS_2016 === 'Obligaciones del trabajador'"
     >
       <Obligacionesdeltrabajador />
     </div>
@@ -81,7 +113,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 import Procesodeimplantación from "./capacitacion/Proceso de implantación.vue";
 import Obligacionesdelpatrón from "./capacitacion/Obligaciones del patrón.vue";
@@ -91,13 +122,13 @@ export default {
   name: "NOM_035_STPS_2016",
   data() {
     return {
-      selected_opt_NOM_035_STPS_2016: ["enqueconsiste"],
+      selected_opt_NOM_035_STPS_2016: "En que consiste",
+      boolean_sidenav: true,
     };
   },
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Capacitacion,
     Transparencia,
     Procesodeimplantación,
     Obligacionesdelpatrón,

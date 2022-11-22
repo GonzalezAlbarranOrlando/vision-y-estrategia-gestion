@@ -1,5 +1,116 @@
 <template>
   <div class="container">
+    <!--sidenav -->
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="width: 300px"
+      v-if="boolean_sidenav"
+    >
+      <button
+        type="button"
+        class="btn-close closebtn"
+        aria-label="Close"
+        v-on:click="boolean_sidenav = false"
+      ></button>
+      <div class="sidenav-blue">
+        <b>ISO/TS 54001:2019</b>
+      </div>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_ISO_TS_54001_2019 = 'En que consiste'"
+      >
+        En que consiste
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_ISO_TS_54001_2019 = 'Servicio de implantación'"
+      >
+        Servicio de implantación
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="selected_opt_ISO_TS_54001_2019 = 'Transparencia'"
+      >
+        Transparencia
+      </button>
+      <div class="sidenav-blue"><b>Capacitación:</b></div>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los organismos electorales'
+        "
+      >
+        Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los
+        organismos electorales
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Fundamentos de la ISO 54001 y metodología general para su implementación'
+        "
+      >
+        Fundamentos de la ISO 54001 y metodología general para su implementación
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Mapeo de procesos para el desarrollo de objetivos en las organizaciones electorales'
+        "
+      >
+        Mapeo de procesos para el desarrollo de objetivos en las organizaciones
+        electorales
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Gestión de indicadores del sistema electoral'
+        "
+      >
+        Gestión de indicadores del sistema electoral
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Desarrollo de la documentación del Sistema de Gestión Electoral'
+        "
+      >
+        Desarrollo de la documentación del Sistema de Gestión Electoral
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Herramientas de calidad y mejora continua'
+        "
+      >
+        Herramientas de calidad y mejora continua
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 =
+            'Formación de equipo auditor para la auditoría del sistema de gestión electoral'
+        "
+      >
+        Formación de equipo auditor para la auditoría del sistema de gestión
+        electoral
+      </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 = 'Calidad en el servicio electoral'
+        "
+      >
+        Calidad en el servicio electoral
+      </button>
+    </div>
+    <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">ISO/TS 54001:2019</p>
@@ -8,83 +119,32 @@
     <h1 class="my-h1">
       Sistema de Gestión de la Calidad a Organizaciones Electorales
     </h1>
-    <select
-      class="form-select"
-      multiple
-      aria-label="multiple select example"
-      v-model="selected_opt_ISO_TS_54001_2019"
-      size="4"
+    <span
+      style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"
+      v-on:click="boolean_sidenav = true"
+      >&#9776; Menú de opciones</span
     >
-      <option selected value="enqueconsiste">En que consiste</option>
-      <option value="serviciodeimplantacion">Servicio de implantación</option>
-      <option value="capacitacion">Capacitación</option>
-      <option value="transparencia">Transparencia</option>
-
-      <option value="Análisis ejecutivo e impacto">
-        Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los
-        organismos electorales
-      </option>
-      <option
-        value="Fundamentos de la ISO 54001 y metodología general para su implementación"
-      >
-        Fundamentos de la ISO 54001 y metodología general para su implementación
-      </option>
-      <option
-        value="Mapeo de procesos para el desarrollo de objetivos en las organizaciones electorales"
-      >
-        Mapeo de procesos para el desarrollo de objetivos en las organizaciones
-        electorales
-      </option>
-      <option value="Gestión de indicadores del sistema electoral">
-        Gestión de indicadores del sistema electoral
-      </option>
-      <option
-        value="Desarrollo de la documentación del Sistema de Gestión Electoral"
-      >
-        Desarrollo de la documentación del Sistema de Gestión Electoral
-      </option>
-      <option value="Herramientas de calidad y mejora continua">
-        Herramientas de calidad y mejora continua
-      </option>
-      <option
-        value="Formación de equipo auditor para la auditoría del sistema de gestión electoral"
-      >
-        Formación de equipo auditor para la auditoría del sistema de gestión
-        electoral
-      </option>
-      <option value="Calidad en el servicio electoral">
-        Calidad en el servicio electoral
-      </option>
-    </select>
     <div
       class="my-5"
-      v-if="selected_opt_ISO_TS_54001_2019[0] === 'enqueconsiste'"
+      v-if="selected_opt_ISO_TS_54001_2019 === 'En que consiste'"
     >
       <EnQueConsiste />
     </div>
     <div
       class="my-5"
-      v-if="selected_opt_ISO_TS_54001_2019[0] === 'serviciodeimplantacion'"
+      v-if="selected_opt_ISO_TS_54001_2019 === 'Servicio de implantación'"
     >
       <ServicioDeImplantacion />
     </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_ISO_TS_54001_2019[0] === 'capacitacion'"
-    >
-      <Capacitacion />
-    </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_ISO_TS_54001_2019[0] === 'transparencia'"
-    >
+    <div class="my-5" v-if="selected_opt_ISO_TS_54001_2019 === 'Transparencia'">
       <Transparencia />
     </div>
 
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] === 'Análisis ejecutivo e impacto'
+        selected_opt_ISO_TS_54001_2019 ===
+        'Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los organismos electorales'
       "
     >
       <Análisisejecutivoeimpacto />
@@ -92,7 +152,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Fundamentos de la ISO 54001 y metodología general para su implementación'
       "
     >
@@ -101,7 +161,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Mapeo de procesos para el desarrollo de objetivos en las organizaciones electorales'
       "
     >
@@ -110,7 +170,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Gestión de indicadores del sistema electoral'
       "
     >
@@ -119,7 +179,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Desarrollo de la documentación del Sistema de Gestión Electoral'
       "
     >
@@ -128,7 +188,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Herramientas de calidad y mejora continua'
       "
     >
@@ -137,7 +197,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] ===
+        selected_opt_ISO_TS_54001_2019 ===
         'Formación de equipo auditor para la auditoría del sistema de gestión electoral'
       "
     >
@@ -146,7 +206,7 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_TS_54001_2019[0] === 'Calidad en el servicio electoral'
+        selected_opt_ISO_TS_54001_2019 === 'Calidad en el servicio electoral'
       "
     >
       <Calidadenelservicioelectoral />
@@ -157,7 +217,6 @@
 <script>
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
-import Capacitacion from "./Capacitacion.vue";
 import Transparencia from "./Transparencia.vue";
 
 import Análisisejecutivoeimpacto from "./capacitacion/Análisis ejecutivo e impacto.vue";
@@ -173,13 +232,13 @@ export default {
   name: "ISO_TS_54001_2019",
   data() {
     return {
-      selected_opt_ISO_TS_54001_2019: ["enqueconsiste"],
+      selected_opt_ISO_TS_54001_2019: "En que consiste",
+      boolean_sidenav: true,
     };
   },
   components: {
     EnQueConsiste,
     ServicioDeImplantacion,
-    Capacitacion,
     Transparencia,
     Análisisejecutivoeimpacto,
     FundamentosdelaISO54001ymetodologíageneralparasuimplementación,
