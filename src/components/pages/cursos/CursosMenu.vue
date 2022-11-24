@@ -18,7 +18,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/236/600/300"
+              src="@/assets/img/cursos/gestion_de_la_innovacion.jpeg"
               class="w-100"
               alt="..."
             />
@@ -37,7 +37,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/235/600/300"
+              src="@/assets/img/cursos/indicadores_para_el_sistema_de_gestion.jpeg"
               class="w-100"
               alt="..."
             />
@@ -56,7 +56,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/planeacion_estrategia_y_control.jpeg"
               class="w-100"
               alt="..."
             />
@@ -77,7 +77,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/administracion_de_proyectos.jpeg"
               class="w-100"
               alt="..."
             />
@@ -96,7 +96,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/mapeo_de_procesos.jpeg"
               class="w-100"
               alt="..."
             />
@@ -115,7 +115,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/gestion_estrategica.jpeg"
               class="w-100"
               alt="..."
             />
@@ -134,7 +134,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/236/600/300"
+              src="@/assets/img/cursos/planeacion_avanzada_de_la_calidad.jpeg"
               class="w-100"
               alt="..."
             />
@@ -153,7 +153,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/235/600/300"
+              src="@/assets/img/cursos/desarrollo_de_habilidades_directivas.jpeg"
               class="w-100"
               alt="..."
             />
@@ -172,7 +172,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/gestion_por_procesos.jpeg"
               class="w-100"
               alt="..."
             />
@@ -191,7 +191,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/analisis_de_causa_raiz.jpeg"
               class="w-100"
               alt="..."
             />
@@ -212,7 +212,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/indicadores_de_desempeño.jpeg"
               class="w-100"
               alt="..."
             />
@@ -231,7 +231,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/liderazgo_creativo.jpeg"
               class="w-100"
               alt="..."
             />
@@ -250,7 +250,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/236/600/300"
+              src="@/assets/img/cursos/gestion_antisoborno.jpeg"
               class="w-100"
               alt="..."
             />
@@ -269,7 +269,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/235/600/300"
+              src="@/assets/img/cursos/sistema_de_gestion_de_la_calidad.jpeg"
               class="w-100"
               alt="..."
             />
@@ -288,7 +288,7 @@
             style="text-decoration: none"
           >
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/cursos/curso_auditor_interno.jpeg"
               class="w-100"
               alt="..."
             />
