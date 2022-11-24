@@ -63,7 +63,7 @@ h3.my-h3 {
 }
 
 div.general-text {
-    color: gray;
+    color: #444444;
     text-align: justify;
     margin-top: 15px;
     margin-bottom: 25px;
@@ -71,7 +71,7 @@ div.general-text {
 }
 
 .general-text table{
-    color: gray;
+    color: #444444;
 }
 
 a.download-here {
@@ -178,6 +178,17 @@ div.card-body-equipo {
 
 /*cards end*/
 
+/*cursos cards*/
+div.card-cursos {
+    color: #444444;
+    text-align: center;    
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+    min-height: 130px;
+}
+/*cursos cards end*/
+
 /* Capacitacion tables*/
 div.table-row {
     padding-left: 5px;
@@ -273,6 +284,26 @@ button.btn {
 
 /*Accordion mood end*/
 
+/*Acoordion Boletines*/
+#accordionBoletines .accordion-button{
+    color: black;
+    background-color: white;
+}
+#accordionBoletines .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #f8f8f8;
+}
+#accordionBoletines .accordion-body{
+    background-color: #f8f8f8;
+}
+#accordionBoletines .accordion-button:focus {
+    box-shadow: 0px 0px 15px 0px #888888;
+}
+#accordionBoletines .accordion-button:after{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+/*Acoordion Boletines end*/
+
 /* vertical center */
 div.ext-box { display: table; width:100%;}
 div.int-box { display: table-cell; vertical-align: middle; }
@@ -340,14 +371,3 @@ div.int-box { display: table-cell; vertical-align: middle; }
     word-wrap: break-word;
   }
 /*sidenav end*/
-
-/*cursos cards*/
-div.card-cursos {
-    color: #444444;
-    text-align: center;    
-    font-size: 20px;
-    font-weight: bold;
-    word-wrap: break-word;
-    min-height: 100px;
-}
-/*cursos cards end*/

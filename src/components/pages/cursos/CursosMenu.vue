@@ -11,7 +11,7 @@
       todos los aspectos de tu organización.
     </div>
     <div class="row justify-content-center my-5">
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Gesti%C3%B3n_de_la_Innovaci%C3%B3n"
@@ -30,7 +30,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Indicadores_para_el_Sistema_de_Gesti%C3%B3n"
@@ -49,7 +49,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Planeaci%C3%B3n_Estrat%C3%A9gica_y_Control_de_Calidad"
@@ -70,7 +70,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Administraci%C3%B3n_de_Proyectos_Seis_Sigma"
@@ -89,7 +89,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Mapeo_de_Procesos"
@@ -108,7 +108,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Gesti%C3%B3n_Estrat%C3%A9gica"
@@ -127,7 +127,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Planeaci%C3%B3n_Avanzada_de_la_Calidad"
@@ -146,7 +146,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Desarrollo_de_Habilidades_Directivas"
@@ -165,7 +165,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Gesti%C3%B3n_por_Procesos"
@@ -184,7 +184,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/An%C3%A1lisis_de_Causa_Ra%C3%ADz_y_Acciones_Correctivas"
@@ -205,7 +205,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Indicadores_de_Desempe%C3%B1o"
@@ -224,7 +224,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Liderazgo_Creativo"
@@ -243,7 +243,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Gesti%C3%B3n_Antisoborno_37001"
@@ -262,7 +262,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Sistemas_de_Gesti%C3%B3n_de_la_Calidad"
@@ -281,7 +281,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-sm-3 col-6 py-2">
+      <div class="col-sm-4 col-xl-3 col-6 py-2">
         <div class="card">
           <router-link
             to="/cursos/Curso_Auditor_Interno_ISO_9001"
