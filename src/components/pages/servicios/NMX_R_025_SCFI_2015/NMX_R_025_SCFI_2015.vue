@@ -157,7 +157,7 @@ export default {
   data() {
     return {
       selected_opt_NMX_R_025_SCFI_2015: "En que consiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {

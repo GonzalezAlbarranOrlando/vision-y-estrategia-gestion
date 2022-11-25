@@ -134,7 +134,7 @@ export default {
     return {
       selected_opt_ISO_9001_2015: ["enqueconsiste"],
       selected_opt_ISO_9001_2015_prb: "enqueconsiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {

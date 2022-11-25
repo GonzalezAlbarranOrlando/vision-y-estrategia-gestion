@@ -135,7 +135,7 @@ export default {
   data() {
     return {
       selected_opt_ISO_31000: "En que consiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {

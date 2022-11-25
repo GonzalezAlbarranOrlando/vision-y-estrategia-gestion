@@ -139,23 +139,9 @@
     <div class="row justify-content-around mt-5">
       <div class="col-sm-3 col-6 py-2">
         <div class="card">
-          <router-link to="/contacto" style="text-decoration: none">
+          <router-link to="/cursos" style="text-decoration: none">
             <img
-              src="https://picsum.photos/id/236/600/300"
-              class="w-100"
-              alt="..."
-            />
-            <div class="card-header table-title">
-              <h5 class="my-3">Consultoría</h5>
-            </div>
-          </router-link>
-        </div>
-      </div>
-      <div class="col-sm-3 col-6 py-2">
-        <div class="card">
-          <router-link to="/contacto" style="text-decoration: none">
-            <img
-              src="https://picsum.photos/id/235/600/300"
+              src="@/assets/img/inicio/cursos.jpeg"
               class="w-100"
               alt="..."
             />
@@ -167,9 +153,9 @@
       </div>
       <div class="col-sm-3 col-6 py-2">
         <div class="card">
-          <router-link to="/contacto" style="text-decoration: none">
+          <router-link to="/boletines" style="text-decoration: none">
             <img
-              src="https://picsum.photos/id/234/600/300"
+              src="@/assets/img/inicio/boletines.jpeg"
               class="w-100"
               alt="..."
             />

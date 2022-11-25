@@ -233,7 +233,7 @@ export default {
   data() {
     return {
       selected_opt_ISO_TS_54001_2019: "En que consiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {

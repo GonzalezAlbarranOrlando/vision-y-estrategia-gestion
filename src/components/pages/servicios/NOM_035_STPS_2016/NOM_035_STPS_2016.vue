@@ -123,7 +123,7 @@ export default {
   data() {
     return {
       selected_opt_NOM_035_STPS_2016: "En que consiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {

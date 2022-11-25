@@ -15,37 +15,32 @@
           <div class="col-6 col-lg-3 center" style="text-align: center">
             <a href="tel:722-544-7945" class="anchor-footer-text">
               <i class="fa fa-building-o"></i>
-              722-544-7945
             </a>
+            722-544-7945
             <br />
-
             <a href="tel:722-267-6413" class="anchor-footer-text">
               <i class="fa fa-volume-control-phone"></i>
-              722-267-6413
             </a>
-            <br />
             <a
               href="https://api.whatsapp.com/send?phone=7222676413"
               class="anchor-footer-text"
               target="_blank"
             >
               <i class="fa fa-whatsapp"></i>
-              722-267-6413
             </a>
+            722-267-6413
             <br />
             <a href="tel:722-387-5761" class="anchor-footer-text">
               <i class="fa fa-volume-control-phone"></i>
-              722-387-5761
             </a>
-            <br />
             <a
               href="https://api.whatsapp.com/send?phone=7223875761"
               class="anchor-footer-text"
               target="_blank"
             >
               <i class="fa fa-whatsapp"></i>
-              722-387-5761
             </a>
+            722-387-5761
           </div>
           <div class="col-6 col-lg-3 center" style="text-align: center">
             <i class="fa fa-map-marker"></i>

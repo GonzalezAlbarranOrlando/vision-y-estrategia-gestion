@@ -167,7 +167,7 @@ export default {
   name: "UNE_93200",
   data() {
     return {
-      boolean_sidenav: true,
+      boolean_sidenav: false,
       selected_opt_UNE_93200: "En que consiste",
     };
   },

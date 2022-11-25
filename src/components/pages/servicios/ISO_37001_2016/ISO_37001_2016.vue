@@ -133,7 +133,7 @@ export default {
   data() {
     return {
       selected_opt_ISO_37001_2016: "En que consiste",
-      boolean_sidenav: true,
+      boolean_sidenav: false,
     };
   },
   components: {
