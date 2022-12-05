@@ -18,21 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NMX_R_025_SCFI_2015 = 'En que consiste'"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_NMX_R_025_SCFI_2015 = 'Servicio de implantación'
+          selected_opt_NMX_R_025_SCFI_2015 = 'Servicio de implantación';
+          boolean_sidenav = false;
         "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NMX_R_025_SCFI_2015 = 'Transparencia'"
+        v-on:click="
+          selected_opt_NMX_R_025_SCFI_2015 = 'Transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
@@ -41,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_NMX_R_025_SCFI_2015 =
-            'Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo'
+            'Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo';
+          boolean_sidenav = false;
         "
       >
         Implantación de Norma Mexicana NMX-R-025-SCFI-2015 en centros de trabajo
@@ -50,7 +58,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_NMX_R_025_SCFI_2015 =
-            'Herramientas para la mejora continua del centro de trabajo una vez certificado en Norma Mexicana NMX-R-025-SCFI-2015'
+            'Herramientas para la mejora continua del centro de trabajo una vez certificado en Norma Mexicana NMX-R-025-SCFI-2015';
+          boolean_sidenav = false;
         "
       >
         Herramientas para la mejora continua del centro de trabajo una vez
@@ -59,7 +68,8 @@
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_NMX_R_025_SCFI_2015 = 'Formación del equipo auditor'
+          selected_opt_NMX_R_025_SCFI_2015 = 'Formación del equipo auditor';
+          boolean_sidenav = false;
         "
       >
         Formación del equipo auditor
@@ -68,7 +78,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_NMX_R_025_SCFI_2015 =
-            'Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación'
+            'Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y No Discriminación';
+          boolean_sidenav = false;
         "
       >
         Inducción a la Norma Mexicana NMX-R-025-SCFI-2015 en Igualdad Laboral y

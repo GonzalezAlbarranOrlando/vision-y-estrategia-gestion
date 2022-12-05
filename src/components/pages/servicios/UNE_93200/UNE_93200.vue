@@ -18,19 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_UNE_93200 = 'En que consiste'"
+        v-on:click="
+          selected_opt_UNE_93200 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_UNE_93200 = 'Servicio de implantación'"
+        v-on:click="
+          selected_opt_UNE_93200 = 'Servicio de implantación';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_UNE_93200 = 'Transparencia'"
+        v-on:click="
+          selected_opt_UNE_93200 = 'Transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
@@ -39,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_UNE_93200 =
-            'Confección y gestión de una carta de servicio'
+            'Confección y gestión de una carta de servicio';
+          boolean_sidenav = false;
         "
       >
         Confección y gestión de una carta de servicio
@@ -48,7 +58,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_UNE_93200 =
-            'Inducción a la gestión de las cartas de servicio'
+            'Inducción a la gestión de las cartas de servicio';
+          boolean_sidenav = false;
         "
       >
         Inducción a la gestión de las cartas de servicio
@@ -57,7 +68,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_UNE_93200 =
-            'Generación y gestión de las cartas de servicio y certificación'
+            'Generación y gestión de las cartas de servicio y certificación';
+          boolean_sidenav = false;
         "
       >
         Generación y gestión de las cartas de servicio y certificación de
@@ -67,7 +79,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_UNE_93200 =
-            'Aspectos metodológicos en el desarrollo de las cartas de servicios'
+            'Aspectos metodológicos en el desarrollo de las cartas de servicios';
+          boolean_sidenav = false;
         "
       >
         Aspectos metodológicos en el desarrollo de las cartas de servicios con
@@ -76,7 +89,8 @@
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_UNE_93200 = 'Requisitos, beneficios y ventajas'
+          selected_opt_UNE_93200 = 'Requisitos, beneficios y ventajas';
+          boolean_sidenav = false;
         "
       >
         Requisitos, beneficios y ventajas al implantar las cartas de servicios

@@ -18,19 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_9001_2015_prb = 'enqueconsiste'"
+        v-on:click="
+          selected_opt_ISO_9001_2015_prb = 'enqueconsiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_9001_2015_prb = 'serviciodeimplantacion'"
+        v-on:click="
+          selected_opt_ISO_9001_2015_prb = 'serviciodeimplantacion';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_9001_2015_prb = 'transparencia'"
+        v-on:click="
+          selected_opt_ISO_9001_2015_prb = 'transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
@@ -39,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_9001_2015_prb =
-            'Análisis y constitución de la Norma Internacional ISO 9001'
+            'Análisis y constitución de la Norma Internacional ISO 9001';
+          boolean_sidenav = false;
         "
       >
         Análisis y constitución de la Norma Internacional ISO 9001:2015
@@ -48,7 +58,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_9001_2015_prb =
-            'Metodologías para implementar la Norma Internacional ISO 9001'
+            'Metodologías para implementar la Norma Internacional ISO 9001';
+          boolean_sidenav = false;
         "
       >
         Metodologías para implementar la Norma Internacional ISO 9001:2015
@@ -57,7 +68,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_9001_2015_prb =
-            'Formación y actualización de auditores internos en la Norma ISO 9001'
+            'Formación y actualización de auditores internos en la Norma ISO 9001';
+          boolean_sidenav = false;
         "
       >
         Formación y actualización de auditores internos en la Norma ISO

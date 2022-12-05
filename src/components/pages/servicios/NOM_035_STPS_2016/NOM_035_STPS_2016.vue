@@ -18,26 +18,38 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NOM_035_STPS_2016 = 'En que consiste'"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Servicio de implantación'"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'Servicio de implantación';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Transparencia'"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'Transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
       <div class="sidenav-blue"><b>Capacitación:</b></div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Proceso de implantación'"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'Proceso de implantación';
+          boolean_sidenav = false;
+        "
       >
         Proceso de implantación en la Norma Oficial Mexicana NOM-035-STPS-2018
         factores de riesgos Psicosociales en el trabajo-identificación, análisis
@@ -45,7 +57,10 @@
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_NOM_035_STPS_2016 = 'Obligaciones del patrón'"
+        v-on:click="
+          selected_opt_NOM_035_STPS_2016 = 'Obligaciones del patrón';
+          boolean_sidenav = false;
+        "
       >
         Obligaciones del patrón conforme a la Norma Oficial Mexicana
         NOM-035-STPS-2018 factores de riesgos Psicosociales en el
@@ -54,7 +69,8 @@
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_NOM_035_STPS_2016 = 'Obligaciones del trabajador'
+          selected_opt_NOM_035_STPS_2016 = 'Obligaciones del trabajador';
+          boolean_sidenav = false;
         "
       >
         Obligaciones del trabajador de acuerdo con la Norma Oficial Mexicana

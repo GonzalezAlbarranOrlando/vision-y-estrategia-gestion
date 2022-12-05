@@ -18,19 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_37001_2016 = 'En que consiste'"
+        v-on:click="
+          selected_opt_ISO_37001_2016 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_37001_2016 = 'Servicio de implantación'"
+        v-on:click="
+          selected_opt_ISO_37001_2016 = 'Servicio de implantación';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_37001_2016 = 'Transparencia'"
+        v-on:click="
+          selected_opt_ISO_37001_2016 = 'Transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
@@ -39,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_37001_2016 =
-            'Introducción a la Norma Internacional ISO 37001:2016'
+            'Introducción a la Norma Internacional ISO 37001:2016';
+          boolean_sidenav = false;
         "
       >
         Introducción a la Norma Internacional ISO 37001:2016
@@ -48,7 +58,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_37001_2016 =
-            'Implementador(a) líder en la norma ISO 37001:2016'
+            'Implementador(a) líder en la norma ISO 37001:2016';
+          boolean_sidenav = false;
         "
       >
         Implementador(a) líder en la norma ISO 37001:2016
@@ -57,7 +68,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_37001_2016 =
-            'Auditor(a) líder en la Norma ISO 37001:2016'
+            'Auditor(a) líder en la Norma ISO 37001:2016';
+          boolean_sidenav = false;
         "
       >
         Auditor(a) líder en la Norma ISO 37001:2016

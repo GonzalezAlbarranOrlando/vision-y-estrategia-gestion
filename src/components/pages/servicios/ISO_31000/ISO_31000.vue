@@ -18,19 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_31000 = 'En que consiste'"
+        v-on:click="
+          selected_opt_ISO_31000 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_31000 = 'Preguntas frecuentes'"
+        v-on:click="
+          selected_opt_ISO_31000 = 'Preguntas frecuentes';
+          boolean_sidenav = false;
+        "
       >
         Preguntas frecuentes
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_31000 = 'Servicio de implantación'"
+        v-on:click="
+          selected_opt_ISO_31000 = 'Servicio de implantación';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
@@ -39,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_31000 =
-            'Inducción a la Norma ISO 31000:2018 Sistema de Gestión de Riesgos'
+            'Inducción a la Norma ISO 31000:2018 Sistema de Gestión de Riesgos';
+          boolean_sidenav = false;
         "
       >
         Inducción a la Norma ISO 31000:2018 Sistema de Gestión de Riesgos
@@ -48,7 +58,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_31000 =
-            'Pensamiento basado en riesgos con base en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos'
+            'Pensamiento basado en riesgos con base en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos';
+          boolean_sidenav = false;
         "
       >
         Pensamiento basado en riesgos con base en la Norma ISO 31000:2018
@@ -58,7 +69,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_31000 =
-            'Formación de equipo auditor en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos'
+            'Formación de equipo auditor en la Norma ISO 31000:2018 Sistema de Gestión de Riesgos';
+          boolean_sidenav = false;
         "
       >
         Formación de equipo auditor en la Norma ISO 31000:2018 Sistema de

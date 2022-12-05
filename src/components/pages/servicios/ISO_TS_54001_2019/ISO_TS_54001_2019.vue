@@ -18,19 +18,28 @@
       </div>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_TS_54001_2019 = 'En que consiste'"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 = 'En que consiste';
+          boolean_sidenav = false;
+        "
       >
         En que consiste
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_TS_54001_2019 = 'Servicio de implantación'"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 = 'Servicio de implantación';
+          boolean_sidenav = false;
+        "
       >
         Servicio de implantación
       </button>
       <button
         class="text-truncate"
-        v-on:click="selected_opt_ISO_TS_54001_2019 = 'Transparencia'"
+        v-on:click="
+          selected_opt_ISO_TS_54001_2019 = 'Transparencia';
+          boolean_sidenav = false;
+        "
       >
         Transparencia
       </button>
@@ -39,7 +48,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los organismos electorales'
+            'Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los organismos electorales';
+          boolean_sidenav = false;
         "
       >
         Análisis ejecutivo e impacto de la NMX-CC-54001-IMNC-2020 en los
@@ -49,7 +59,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Fundamentos de la ISO 54001 y metodología general para su implementación'
+            'Fundamentos de la ISO 54001 y metodología general para su implementación';
+          boolean_sidenav = false;
         "
       >
         Fundamentos de la ISO 54001 y metodología general para su implementación
@@ -58,7 +69,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Mapeo de procesos para el desarrollo de objetivos en las organizaciones electorales'
+            'Mapeo de procesos para el desarrollo de objetivos en las organizaciones electorales';
+          boolean_sidenav = false;
         "
       >
         Mapeo de procesos para el desarrollo de objetivos en las organizaciones
@@ -68,7 +80,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Gestión de indicadores del sistema electoral'
+            'Gestión de indicadores del sistema electoral';
+          boolean_sidenav = false;
         "
       >
         Gestión de indicadores del sistema electoral
@@ -77,7 +90,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Desarrollo de la documentación del Sistema de Gestión Electoral'
+            'Desarrollo de la documentación del Sistema de Gestión Electoral';
+          boolean_sidenav = false;
         "
       >
         Desarrollo de la documentación del Sistema de Gestión Electoral
@@ -86,7 +100,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Herramientas de calidad y mejora continua'
+            'Herramientas de calidad y mejora continua';
+          boolean_sidenav = false;
         "
       >
         Herramientas de calidad y mejora continua
@@ -95,7 +110,8 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_TS_54001_2019 =
-            'Formación de equipo auditor para la auditoría del sistema de gestión electoral'
+            'Formación de equipo auditor para la auditoría del sistema de gestión electoral';
+          boolean_sidenav = false;
         "
       >
         Formación de equipo auditor para la auditoría del sistema de gestión
@@ -104,7 +120,8 @@
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_ISO_TS_54001_2019 = 'Calidad en el servicio electoral'
+          selected_opt_ISO_TS_54001_2019 = 'Calidad en el servicio electoral';
+          boolean_sidenav = false;
         "
       >
         Calidad en el servicio electoral
