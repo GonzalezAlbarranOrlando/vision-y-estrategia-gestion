@@ -684,7 +684,7 @@
             <div class="general-text">
               <p><b>DE 2011 a la fecha, México ha caído 24 lugares en el índice de Percepción de la Corrupción (IPC) </b></p>
               <p>
-                Existe una máxima en la gestión para resultados que plantea lo siguiente: “lo que se mide, se puede mejorar”. En Gobernova hemos completado esta frase diciendo “lo que no se mide, se deteriora”.
+                Existe una máxima en la gestión para resultados que plantea lo siguiente: “lo que se mide, se puede mejorar”. En Visión y Estreategia hemos completado esta frase diciendo “lo que no se mide, se deteriora”.
               </p>
               <p>
                 La corrupción no se acabará nunca, siempre será un rumor en los pasillos que servirá muchas veces para desprestigiar personas, empresas e instituciones, sin embargo, si se debe controlar, por las graves consecuencias económicas que acarrea para la sociedad.
