@@ -72,7 +72,7 @@
               <b>Horas de duración: </b>5 días 20 horas
             </div>
             <div class="table-blue">
-              <b>Fecha de realización: </b>18,19, 22, 23 y 24 de agosto de 2022
+              <b>Fecha de realización: </b>Del 14 al 18 de agosto de 2023
             </div>
   </div>
 </template>

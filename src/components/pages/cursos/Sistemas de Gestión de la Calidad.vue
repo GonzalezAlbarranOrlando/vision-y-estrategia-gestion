@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Sistemas de Gestión de la Calidad</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Sistemas de Gestión de la Calidad</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Implementar un Sistema de Gestión de la Calidad basado en la Norma ISO 9001:2015 es una decisión estratégica que toman las organizaciones, y que implica planificar, asignar recursos y llevar a cabo una serie de actividades cuyo hito inicial suele ser lograr la certificación.

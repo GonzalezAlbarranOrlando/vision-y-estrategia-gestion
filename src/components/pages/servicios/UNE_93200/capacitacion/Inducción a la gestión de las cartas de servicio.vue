@@ -51,7 +51,7 @@
               <b>Horas de duración: </b>1 día, 2 horas
             </div>
             <div class="table-blue">
-              <b>Fecha de realización: </b>24 de mayo de 2022
+              <b>Fecha de realización: </b>2 de junio de 2023
             </div>
   </div>
 </template>

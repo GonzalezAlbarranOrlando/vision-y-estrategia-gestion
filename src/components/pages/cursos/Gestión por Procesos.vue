@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Gestión por Procesos</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Gestión por Procesos</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Una organización alcanza la mayor eficiencia cuando el conjunto de sus actividades se gestiona como sistema de procesos. Es preciso que la organización sea capaz de identificar, diseñar, medir y mejorar el proceso de gestión.

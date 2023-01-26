@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Planeación Avanzada de la Calidad</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Planeación Avanzada de la Calidad</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         El objetivo de una planificación avanzada de calidad de un producto es facilitar la comunicación con todos los involucrados para lograr un diseño y proceso sin fallas, incrementar la productividad y mantener la calidad esperada por el cliente.

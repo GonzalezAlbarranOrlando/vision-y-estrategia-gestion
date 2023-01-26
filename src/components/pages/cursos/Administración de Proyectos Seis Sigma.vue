@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Administración de Proyectos Seis Sigma</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Administración de Proyectos Seis Sigma</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Six Sigma es una metodología de proyectos de gestión que pone énfasis en la satisfacción de los clientes en cuanto a la calidad de producto. La función de esta metodología es eliminar aquellos problemas que puedan ocurrir en la fase de desarrollo del proyecto.

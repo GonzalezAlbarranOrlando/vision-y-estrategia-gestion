@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Indicadores de Desempeño</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Indicadores de Desempeño</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Las organizaciones buscan ser más competitivas y productivas, para lograr ello deben mejorar la gestión de sus procesos y aplicar herramientas midan su gestión; el uso de indicadores permite monitorear el proceso contribuyendo a tomar decisiones a fin de lograr metas.

@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Curso Auditor Interno ISO 9001</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Curso Auditor Interno ISO 9001</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         La Norma ISO 9001: 2015 se ha actualizado, incorpora cambios significativos en relación con la anterior versión del año 2008. Visión y Estratégia Consultoría ha diseñado un curso a medida de las necesidades de todo auditor interno.

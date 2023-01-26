@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Mapeo de Procesos</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Mapeo de Procesos</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         El mapeo de procesos es una herramienta analítica y de comunicación probada que pretende ayudarte a mejorar los procesos existentes o implementar una nueva estructura dirigida por procesos.

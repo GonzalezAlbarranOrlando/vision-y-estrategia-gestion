@@ -7,6 +7,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Inicio from './components/pages/Inicio.vue'
 import Contacto from './components/pages/Contacto.vue'
 import Nosotros from './components/pages/Nosotros.vue'
+import Introduccion_a_la_norma_intermacional_ISO_37001 from './components/pages/Introduccion a la norma intermacional ISO 37001.vue'
 import Template from './components/pages/Template.vue'
 import Boletines from './components/pages/Boletines.vue'
 import Cursos from './components/pages/cursos/CursosMenu.vue'
@@ -41,6 +42,7 @@ const routes = [
     { path: '/', component: Inicio },
     { path: '/contacto', component: Contacto },
     { path: '/nosotros', component: Nosotros },
+    { path: '/Introducci%C3%B3n_a_la_norma_intermacional_ISO_37001', component: Introduccion_a_la_norma_intermacional_ISO_37001 },
     { path: '/template', component: Template },
     { path: '/boletines', component: Boletines },
     { path: '/cursos', component: Cursos },

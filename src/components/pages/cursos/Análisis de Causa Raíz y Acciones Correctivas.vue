@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Análisis de Causa Raíz y Acciones Correctivas</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Análisis de Causa Raíz y Acciones Correctivas</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Cuando ocurre una falla, se percibe a través de ciertas manifestaciones o síntomas, no la causa de la falla, la mayoría de las veces esto conduce a la acción sobre las consecuencias y no sobre la raíz del problema, de modo que la falla se repite una y otra vez.
