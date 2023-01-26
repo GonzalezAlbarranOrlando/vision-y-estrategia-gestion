@@ -134,7 +134,7 @@
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">
-      Sistema de Gestión de la Calidad a Organizaciones Electorales
+      Sistema de Gestión de la Calidad para Organizaciones Electorales
     </h1>
     <span
       style="font-size: 30px; cursor: pointer; color: gray; font-weight: bold"

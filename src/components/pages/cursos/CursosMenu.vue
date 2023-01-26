@@ -5,6 +5,16 @@
       <p class="animate__animated animate__slideInDown">Cursos</p>
     </div>
     <!--Animated title end-->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Cursos</li>
+      </ol>
+    </nav>
     <div class="general-text">
       Nuestro servicio se ajusta a las necesidades de nuestros clientes.
       Contamos con un cuerpo de consultores altamente calificados para cubrir
@@ -18,7 +28,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/gestion_de_la_innovacion.jpeg"
+              src="@/assets/img/cursos/cursos/gestion-de-la-inovacion.jpg"
               class="w-100"
               alt="..."
             />
@@ -37,7 +47,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/indicadores_para_el_sistema_de_gestion.jpeg"
+              src="@/assets/img/cursos/cursos/indicadores-para-el-sistema-de-gestion.jpg"
               class="w-100"
               alt="..."
             />
@@ -56,7 +66,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/planeacion_estrategia_y_control.jpeg"
+              src="@/assets/img/cursos/cursos/planeacion-estrategica-y-control-de-la-calidad.jpg"
               class="w-100"
               alt="..."
             />
@@ -77,7 +87,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/administracion_de_proyectos.jpeg"
+              src="@/assets/img/cursos/cursos/administracion-de-proyectos.jpg"
               class="w-100"
               alt="..."
             />
@@ -96,7 +106,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/mapeo_de_procesos.jpeg"
+              src="@/assets/img/cursos/cursos/mapeo-de-procesos.jpg"
               class="w-100"
               alt="..."
             />
@@ -115,7 +125,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/gestion_estrategica.jpeg"
+              src="@/assets/img/cursos/cursos/gestion-estrategica.jpg"
               class="w-100"
               alt="..."
             />
@@ -134,7 +144,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/planeacion_avanzada_de_la_calidad.jpeg"
+              src="@/assets/img/cursos/cursos/planeacion-avanzada.jpg"
               class="w-100"
               alt="..."
             />
@@ -153,7 +163,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/desarrollo_de_habilidades_directivas.jpeg"
+              src="@/assets/img/cursos/cursos/desarrollo-de-habilidades-directivas.jpg"
               class="w-100"
               alt="..."
             />
@@ -172,7 +182,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/gestion_por_procesos.jpeg"
+              src="@/assets/img/cursos/cursos/gestion-de-procesos.jpg"
               class="w-100"
               alt="..."
             />
@@ -191,7 +201,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/analisis_de_causa_raiz.jpeg"
+              src="@/assets/img/cursos/cursos/analisis-de-causa-raiz-y-acciones-correctivas.jpg"
               class="w-100"
               alt="..."
             />
@@ -212,7 +222,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/indicadores_de_desempeño.jpeg"
+              src="@/assets/img/cursos/cursos/indicadores-de-desempeño.jpg"
               class="w-100"
               alt="..."
             />
@@ -231,7 +241,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/liderazgo_creativo.jpeg"
+              src="@/assets/img/cursos/cursos/liderazgo-creativo.jpg"
               class="w-100"
               alt="..."
             />
@@ -250,7 +260,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/gestion_antisoborno.jpeg"
+              src="@/assets/img/cursos/cursos/37001.jpg"
               class="w-100"
               alt="..."
             />
@@ -269,7 +279,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/sistema_de_gestion_de_la_calidad.jpeg"
+              src="@/assets/img/cursos/cursos/sistema-de-gestión-de-la-calidad.jpg"
               class="w-100"
               alt="..."
             />
@@ -288,7 +298,7 @@
             style="text-decoration: none"
           >
             <img
-              src="@/assets/img/cursos/curso_auditor_interno.jpeg"
+              src="@/assets/img/cursos/cursos/ISO-9001.jpg"
               class="w-100"
               alt="..."
             />

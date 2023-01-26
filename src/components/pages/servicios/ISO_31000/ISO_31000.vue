@@ -43,6 +43,15 @@
       >
         Servicio de implantación
       </button>
+      <button
+        class="text-truncate"
+        v-on:click="
+          selected_opt_ISO_31000 = 'Transparencia';
+          boolean_sidenav = false;
+        "
+      >
+        Transparencia
+      </button>
       <div class="sidenav-blue"><b>Capacitación:</b></div>
       <button
         class="text-truncate"
@@ -103,6 +112,12 @@
     </div>
     <div
       class="my-5"
+      v-if="selected_opt_ISO_31000 === 'Transparencia'"
+    >
+      <Transparencia />
+    </div>
+    <div
+      class="my-5"
       v-if="
         selected_opt_ISO_31000 ===
         'Inducción a la Norma ISO 31000:2018 Sistema de Gestión de Riesgos'
@@ -138,6 +153,7 @@
 import EnQueConsiste from "./EnQueConsiste.vue";
 import PreguntasFrecuentes from "./PreguntasFrecuentes.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
+import Transparencia from "./Transparencia.vue";
 import InducciónalaNormaISO31000 from "./capacitacion/Inducción a la Norma ISO 31000.vue";
 import PensamientobasadoenriesgosconbaseenlaNormaISO31000 from "./capacitacion/Pensamiento basado en riesgos con base en la Norma ISO 31000.vue";
 import FormacióndeequipoauditorenlaNormaISO31000 from "./capacitacion/Formación de equipo auditor en la Norma ISO 31000.vue";
@@ -154,6 +170,7 @@ export default {
     EnQueConsiste,
     PreguntasFrecuentes,
     ServicioDeImplantacion,
+    Transparencia,
     InducciónalaNormaISO31000,
     PensamientobasadoenriesgosconbaseenlaNormaISO31000,
     FormacióndeequipoauditorenlaNormaISO31000,

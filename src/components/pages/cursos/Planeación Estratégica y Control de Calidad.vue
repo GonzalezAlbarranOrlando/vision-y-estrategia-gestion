@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Planeación Estratégica y Control de Calidad</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Planeación Estratégica y Control de Calidad</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         La planeación estratégica se realiza dentro de la organización, establece metas correctas y medios correctos, optimiza antes de invertir, proyecta al futuro y posibilita tomar decisiones en torno al quehacer actual y al camino que deben recorrer para adecuarse a los cambios y a las demandas que les impone el entorno. Solo así se logrará la mayor calidad, eficiencia y eficacia en los bienes, servicios o productos que se proveen.

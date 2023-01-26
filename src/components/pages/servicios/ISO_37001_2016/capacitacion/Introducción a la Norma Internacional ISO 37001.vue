@@ -119,7 +119,7 @@
               <b>Horas de duración: </b>1 día (5 horas)
             </div>
             <div class="table-blue">
-              <b>Fecha de realización: </b>28 de abril de 2022
+              <b>Fecha de realización: </b>28 de abril de 2023
             </div>
 
   </div>

@@ -69,6 +69,9 @@
             <div class="table-white">
               <b>Horas de duración: </b>16 horas. 4 días (4 horas por día) 
             </div>
+            <div class="table-blue">
+              <b>Fecha de realización: </b>Del 3 al 6 de julio de 2023
+            </div>
 
   </div>
 </template>

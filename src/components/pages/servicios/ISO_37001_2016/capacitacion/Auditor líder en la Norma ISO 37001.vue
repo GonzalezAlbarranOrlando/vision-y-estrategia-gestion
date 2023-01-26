@@ -53,7 +53,7 @@
               <b>Horas de duración: </b>2 días 6 horas (3 horas por día)
             </div>
             <div class="table-blue">
-              <b>Fecha de realización: </b>2 y 3 de junio de 2022
+              <b>Fecha de realización: </b>1 y 2 de junio de 2023
             </div>
 
   </div>

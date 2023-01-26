@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Gestión Estratégica</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Gestión Estratégica</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         Desarrollar habilidades básicas para diseñar y facilitar un proceso de formulación e implantación estratégica, comprende los fundamentos del análisis del entorno de la organización como elemento para la formulación de la estrategia, aplicar herramientas modernas y con alto impacto en la efectividad del proceso de formulación e implantación de la estrategia.

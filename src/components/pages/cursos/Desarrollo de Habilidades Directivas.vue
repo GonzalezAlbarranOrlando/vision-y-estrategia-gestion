@@ -1,6 +1,21 @@
 <template>
   <div class="container my-5">
     <h1 class="my-h1">Desarrollo de Habilidades Directivas</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <router-link class="" to="/">
+            Inicio
+          </router-link>
+        </li>       
+        <li class="breadcrumb-item">
+          <router-link class="" to="/cursos">
+            Cursos
+          </router-link>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Desarrollo de Habilidades Directivas</li>
+      </ol>
+    </nav>
     <div class="general-text">
       <p>
         El gerente o director de una organización debe estar preparado para manejar en forma eficaz la comunicación con su equipo de trabajo, las habilidades directivas permiten solucionar el conflicto entre compañeros, saber motivar y escuchar a los que tenemos alrededor.

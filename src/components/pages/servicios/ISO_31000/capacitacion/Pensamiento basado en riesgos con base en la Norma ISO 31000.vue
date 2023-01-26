@@ -52,6 +52,9 @@
             <div class="table-white">
               <b>Horas de duración: </b>12 horas. 4 días (3 horas por día) 
             </div>
+            <div class="table-blue">
+              <b>Fecha de realización: </b>Del 26 al 29 de junio de 2023
+            </div>
   </div>
 </template>
           
