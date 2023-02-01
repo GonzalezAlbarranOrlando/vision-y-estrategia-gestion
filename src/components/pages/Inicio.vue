@@ -62,16 +62,19 @@
           data-bs-slide-to="8"
           aria-label="Slide 9"
         ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="9"
-          aria-label="Slide 10"
-        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <router-link to="/Introducci%C3%B3n_a_la_norma_intermacional_ISO_37001">
+          <img
+            src="@/assets/img/carrusel/carrusel-centro-de-trabajo-certificado.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <router-link
+            to="/Introducci%C3%B3n_a_la_norma_intermacional_ISO_37001"
+          >
             <img
               src="@/assets/img/carrusel/carrusel-37001-01.jpg"
               class="d-block w-100"
@@ -82,7 +85,7 @@
         <div class="carousel-item" data-bs-interval="3000">
           <router-link to="/ISO_9001:2015">
             <img
-            src="@/assets/img/carrusel/B-ISO-9001.jpg"
+              src="@/assets/img/carrusel/B-ISO-9001.jpg"
               class="d-block w-100"
               alt="..."
             />
@@ -141,20 +144,6 @@
               alt="..."
             />
           </router-link>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">          
-            <img
-              src="@/assets/img/carrusel/carrusel-Centro-certificado-y-agente.jpg"
-              class="d-block w-100"
-              alt="..."
-            />          
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">          
-            <img
-              src="@/assets/img/carrusel/carrusel-Centro-certificado.jpg"
-              class="d-block w-100"
-              alt="..."
-            />          
         </div>
       </div>
       <button
@@ -231,11 +220,7 @@
         <!--card servicios-->
         <div class="card">
           <router-link to="/NMX-R-025-SCFI-2015" style="text-decoration: none">
-            <img
-              src="@/assets/img/servicios/025.jpg"
-              class="w-100"
-              alt="..."
-            />
+            <img src="@/assets/img/servicios/025.jpg" class="w-100" alt="..." />
             <div class="card-header table-title">
               <h5 class="my-3">NMX-R-025-SCFI-2015</h5>
             </div>
@@ -263,11 +248,7 @@
         <!--card servicios-->
         <div class="card">
           <router-link to="/NOM-035-STPS-2016" style="text-decoration: none">
-            <img
-              src="@/assets/img/servicios/035.jpg"
-              class="w-100"
-              alt="..."
-            />
+            <img src="@/assets/img/servicios/035.jpg" class="w-100" alt="..." />
             <div class="card-header table-title">
               <h5 class="my-3">NOM-035-STPS-2016</h5>
             </div>
@@ -293,61 +274,78 @@
       </div>
 
       <h1 class="my-h1 mt-5">Información</h1>
-    <div class="row justify-content-around mt-1">
-      <div class="col-sm-4 col-6 py-2">
-        <div class="card">
-          <router-link to="/cursos" style="text-decoration: none">
-            <img
-              src="@/assets/img/inicio/cursos.jpg"
-              class="w-100"
-              alt="..."
-            />
-            <div class="card-header table-title">
-              <h5 class="my-3">Cursos</h5>
-            </div>
-          </router-link>
+      <div class="row justify-content-around mt-1">
+        <div class="col-sm-4 col-6 py-2">
+          <div class="card">
+            <router-link to="/cursos" style="text-decoration: none">
+              <img
+                src="@/assets/img/inicio/cursos.jpg"
+                class="w-100"
+                alt="..."
+              />
+              <div class="card-header table-title">
+                <h5 class="my-3">Cursos</h5>
+              </div>
+            </router-link>
+          </div>
+        </div>
+        <div class="col-sm-4 col-6 py-2">
+          <div class="card">
+            <router-link to="/boletines" style="text-decoration: none">
+              <img
+                src="@/assets/img/inicio/boletines.jpg"
+                class="w-100"
+                alt="..."
+              />
+              <div class="card-header table-title">
+                <h5 class="my-3">Boletines</h5>
+              </div>
+            </router-link>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4 col-6 py-2">
-        <div class="card">
-          <router-link to="/boletines" style="text-decoration: none">
-            <img
-              src="@/assets/img/inicio/boletines.jpg"
+
+      <h1 class="my-h1 mt-5">Videos</h1>
+      <div class="row justify-content-center">
+        <div class="col-xl-5 py-3">
+          <!--card video-->
+          <div class="card">
+            <iframe
               class="w-100"
-              alt="..."
-            />
+              height="250"
+              src="https://www.youtube.com/embed/15c1YnSbpws"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div class="card-header table-title">
-              <h5 class="my-3">Boletines</h5>
+              <h6 class="my-3">
+                Norma Mexicana en Igualdad Laboral y No Discriminación
+              </h6>
             </div>
-          </router-link>
+          </div>
+          <!--card video end-->
         </div>
-      </div>
-    </div>
-      
-    <h1 class="my-h1 mt-5">Videos</h1>
-    <div class="row justify-content-center">
-      <div class="col-xl-5 py-3">
-        <!--card video-->
-        <div class="card">
-          <iframe class="w-100" height="250" src="https://www.youtube.com/embed/15c1YnSbpws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div class="card-header table-title">
-              <h6 class="my-3">Norma Mexicana en Igualdad Laboral y No Discriminación</h6>
-            </div>
-          
-        </div>
-        <!--card video end-->
-      </div>   
-      <div class="col-xl-5 py-3">
-        <!--card video-->
-        <div class="card">
-          <iframe width="w-100" height="250" src="https://www.youtube.com/embed/HiAbRZ3QKuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="col-xl-5 py-3">
+          <!--card video-->
+          <div class="card">
+            <iframe
+              width="w-100"
+              height="250"
+              src="https://www.youtube.com/embed/HiAbRZ3QKuk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <div class="card-header table-title">
               <h6 class="my-3">Factores de riesgo psicosocial en el trabajo</h6>
             </div>
+          </div>
+          <!--card video end-->
         </div>
-        <!--card video end-->
-      </div>      
-    </div>
+      </div>
     </div>
   </div>
 </template>

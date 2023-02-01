@@ -14,7 +14,7 @@
         v-on:click="boolean_sidenav = false"
       ></button>
       <div class="sidenav-blue">
-        <b>ISO 31000</b>
+        <b>ISO 31000:2018</b>
       </div>
       <button
         class="text-truncate"
@@ -89,7 +89,7 @@
     <!--sidenav end-->
     <!--Animated title-->
     <div class="animate-div">
-      <p class="animate__animated animate__slideInDown">ISO 31000</p>
+      <p class="animate__animated animate__slideInDown">ISO 31000:2018</p>
     </div>
     <!--Animated title end-->
     <h1 class="my-h1">Sistema Gestión del Riesgo-Directrices</h1>
@@ -110,10 +110,7 @@
     >
       <ServicioDeImplantacion />
     </div>
-    <div
-      class="my-5"
-      v-if="selected_opt_ISO_31000 === 'Transparencia'"
-    >
+    <div class="my-5" v-if="selected_opt_ISO_31000 === 'Transparencia'">
       <Transparencia />
     </div>
     <div

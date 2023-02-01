@@ -2,7 +2,7 @@
   <div class="container">
     
     <div class="col-12 table-title">
-              Nombre del Curso: Formación del equipo auditor
+              Nombre del Curso: Formación del equipo auditor en la Norma Mexicana NMX-R-025-SCFI-2015
             </div>
             <div class="table-blue">
               <b>Descripción:</b>

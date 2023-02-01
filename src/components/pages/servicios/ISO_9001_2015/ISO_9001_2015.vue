@@ -47,12 +47,11 @@
       <button
         class="text-truncate"
         v-on:click="
-          selected_opt_ISO_9001_2015_prb =
-            'Análisis y constitución de la Norma Internacional ISO 9001';
+          selected_opt_ISO_9001_2015_prb = 'Interpretación a la Norma ISO 9001';
           boolean_sidenav = false;
         "
       >
-        Análisis y constitución de la Norma Internacional ISO 9001:2015
+        Interpretación a la Norma ISO 9001:2015
       </button>
       <button
         class="text-truncate"
@@ -105,11 +104,10 @@
     <div
       class="my-5"
       v-if="
-        selected_opt_ISO_9001_2015_prb ===
-        'Análisis y constitución de la Norma Internacional ISO 9001'
+        selected_opt_ISO_9001_2015_prb === 'Interpretación a la Norma ISO 9001'
       "
     >
-      <AnálisisyconstitucióndelaNormaInternacional />
+      <InterpretaciónalaNormaISO9001 />
     </div>
     <div
       class="my-5"
@@ -136,7 +134,7 @@
 import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
 import Transparencia from "./Transparencia.vue";
-import AnálisisyconstitucióndelaNormaInternacional from "./capacitacion/Análisis y constitución de la Norma Internacional ISO 9001.vue";
+import InterpretaciónalaNormaISO9001 from "./capacitacion/Interpretación a la Norma ISO 9001.vue";
 import MetodologíasparaimplementarlaNormaInternacionalISO9001 from "./capacitacion/Metodologías para implementar la Norma Internacional ISO 9001.vue";
 import FormaciónyactualizacióndeauditoresinternosenlaNormaISO9001 from "./capacitacion/Formación y actualización de auditores internos en la Norma ISO 9001.vue";
 
@@ -153,7 +151,7 @@ export default {
     EnQueConsiste,
     ServicioDeImplantacion,
     Transparencia,
-    AnálisisyconstitucióndelaNormaInternacional,
+    InterpretaciónalaNormaISO9001,
     MetodologíasparaimplementarlaNormaInternacionalISO9001,
     FormaciónyactualizacióndeauditoresinternosenlaNormaISO9001,
   },

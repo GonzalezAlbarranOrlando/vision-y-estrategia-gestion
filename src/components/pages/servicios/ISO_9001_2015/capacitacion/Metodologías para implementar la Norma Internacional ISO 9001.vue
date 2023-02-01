@@ -2,7 +2,7 @@
   <div class="container">
     
             <div class="col-12 table-title">
-              Nombre del curso: Metodologías para implementar la Norma Internacional ISO 9001:2015
+              Nombre del curso: Metodologías para implementar la Norma ISO 9001:2015
             </div>
             <div class="table-white">
               <b>Objetivo:</b>

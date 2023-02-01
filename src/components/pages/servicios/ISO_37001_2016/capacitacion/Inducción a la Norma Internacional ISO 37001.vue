@@ -2,7 +2,7 @@
   <div class="container">
     
     <div class="col-12 table-title">
-              Nombre del curso: Introducción a la Norma Internacional ISO 37001:2016
+              Nombre del curso: Inducción a la Norma ISO 37001:2016
             </div>
             <div class="table-white">
               <b>Objetivo:</b>

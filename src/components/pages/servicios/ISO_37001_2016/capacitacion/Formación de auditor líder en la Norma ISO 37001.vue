@@ -2,7 +2,7 @@
   <div class="container">
     
     <div class="col-12 table-title">
-              Nombre del curso: Auditor(a) líder en la Norma ISO 37001:2016
+              Nombre del curso: Formación de auditor(a) líder en la Norma ISO 37001:2016
             </div>
             <div class="table-white">
               <b>Objetivo:</b>

@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item px-3">
-            <router-link class="nav-link" to="/nosotros">            
+            <router-link class="nav-link" to="/nosotros">
               <b>Nosotros</b>
             </router-link>
           </li>
@@ -59,7 +59,7 @@
               </li>
               <li>
                 <router-link class="dropdown-item" to="/ISO_31000">
-                  <p>ISO 31000</p>
+                  <p>ISO 31000:2018</p>
                 </router-link>
               </li>
               <li>

@@ -3,7 +3,7 @@
     
     <div class="col-12 table-title">
               Nombre del Taller: Proceso de implantación en la Norma Oficial
-            Mexicana NOM-035-STPS-2018 factores de riesgos Psicosociales en el
+            Mexicana NOM-035-STPS-2018, Factores de riesgos Psicosociales en el
             trabajo-identificación, análisis y prevención en centros de trabajo
             </div>
             <div class="table-white">

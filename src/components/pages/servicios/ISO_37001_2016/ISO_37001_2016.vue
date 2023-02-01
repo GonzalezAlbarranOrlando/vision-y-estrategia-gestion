@@ -48,11 +48,11 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_37001_2016 =
-            'Introducción a la Norma Internacional ISO 37001:2016';
+            'Inducción a la Norma Internacional ISO 37001:2016';
           boolean_sidenav = false;
         "
       >
-        Introducción a la Norma Internacional ISO 37001:2016
+        Inducción a la Norma ISO 37001:2016
       </button>
       <button
         class="text-truncate"
@@ -68,11 +68,11 @@
         class="text-truncate"
         v-on:click="
           selected_opt_ISO_37001_2016 =
-            'Auditor(a) líder en la Norma ISO 37001:2016';
+            'Formación de auditor(a) líder en la Norma ISO 37001:2016';
           boolean_sidenav = false;
         "
       >
-        Auditor(a) líder en la Norma ISO 37001:2016
+        Formación de auditor(a) líder en la Norma ISO 37001:2016
       </button>
     </div>
     <!--sidenav end-->
@@ -105,10 +105,10 @@
       class="my-5"
       v-if="
         selected_opt_ISO_37001_2016 ===
-        'Introducción a la Norma Internacional ISO 37001:2016'
+        'Inducción a la Norma Internacional ISO 37001:2016'
       "
     >
-      <IntroducciónalaNormaInternacionalISO37001 />
+      <InducciónalaNormaInternacionalISO37001 />
     </div>
     <div
       class="my-5"
@@ -123,10 +123,10 @@
       class="my-5"
       v-if="
         selected_opt_ISO_37001_2016 ===
-        'Auditor(a) líder en la Norma ISO 37001:2016'
+        'Formación de auditor(a) líder en la Norma ISO 37001:2016'
       "
     >
-      <AuditorlíderenlaNormaISO37001 />
+      <FormacióndeauditorlíderenlaNormaISO37001 />
     </div>
   </div>
 </template>
@@ -136,9 +136,9 @@ import EnQueConsiste from "./EnQueConsiste.vue";
 import ServicioDeImplantacion from "./ServicioDeImplantacion.vue";
 import Transparencia from "./Transparencia.vue";
 
-import IntroducciónalaNormaInternacionalISO37001 from "./capacitacion/Introducción a la Norma Internacional ISO 37001.vue";
+import InducciónalaNormaInternacionalISO37001 from "./capacitacion/Inducción a la Norma Internacional ISO 37001.vue";
 import ImplementadorlíderenlanormaISO37001 from "./capacitacion/Implementador líder en la norma ISO 37001.vue";
-import AuditorlíderenlaNormaISO37001 from "./capacitacion/Auditor líder en la Norma ISO 37001.vue";
+import FormacióndeauditorlíderenlaNormaISO37001 from "./capacitacion/Formación de auditor líder en la Norma ISO 37001.vue";
 
 export default {
   name: "ISO_37001_2016",
@@ -152,9 +152,9 @@ export default {
     EnQueConsiste,
     ServicioDeImplantacion,
     Transparencia,
-    IntroducciónalaNormaInternacionalISO37001,
+    InducciónalaNormaInternacionalISO37001,
     ImplementadorlíderenlanormaISO37001,
-    AuditorlíderenlaNormaISO37001,
+    FormacióndeauditorlíderenlaNormaISO37001,
   },
 };
 </script>
