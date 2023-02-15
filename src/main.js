@@ -9,7 +9,6 @@ import Contacto from './components/pages/Contacto.vue'
 import Nosotros from './components/pages/Nosotros.vue'
 import Introduccion_a_la_norma_intermacional_ISO_37001 from './components/pages/Introduccion a la norma intermacional ISO 37001.vue'
 import Template from './components/pages/Template.vue'
-import Boletines from './components/pages/Boletines.vue'
 import Cursos from './components/pages/cursos/CursosMenu.vue'
 
 import Gestión_de_la_Innovación from './components/pages/cursos/Gestión de la Innovación.vue'
@@ -65,7 +64,7 @@ const routes = [
     { path: '/nosotros', component: Nosotros },
     { path: '/Introducci%C3%B3n_a_la_norma_intermacional_ISO_37001', component: Introduccion_a_la_norma_intermacional_ISO_37001 },
     { path: '/template', component: Template },
-    { path: '/boletines', component: Boletines },
+    { path: '/boletines', component: BoletinesHome },
     { path: '/cursos', component: Cursos },
 
     { path: '/cursos/Gesti%C3%B3n_de_la_Innovaci%C3%B3n', component: Gestión_de_la_Innovación },
@@ -92,7 +91,6 @@ const routes = [
     { path: '/NOM-035-STPS-2016', component: NOM_035_STPS_2016 },
     { path: '/UNE_93200', component: UNE_93200 },
 
-    { path: '/boletinesTEST', component: BoletinesHome },
     { path: '/boletines/Aplicaci%C3%B3n_del_protocolo', component: Aplicación_del_protocolo },
     { path: '/boletines/Hablemos_de_la_calidad', component: Hablemos_de_la_calidad },
     { path: '/boletines/Cartas_de_servicio_UNE_93200', component: Cartas_de_servicio_UNE_93200 },
