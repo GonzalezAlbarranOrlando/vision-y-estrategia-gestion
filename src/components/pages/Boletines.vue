@@ -1,6 +1,6 @@
 <template>
   <div class="container mb-5">
-    <!--Animated title-->
+    <!--Animated titlee-->
     <div class="animate-div">
       <p class="animate__animated animate__slideInDown">Boletines</p>
     </div>
