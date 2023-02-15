@@ -36,6 +36,27 @@ import ISO_TS_54001_2019 from './components/pages/servicios/ISO_TS_54001_2019/IS
 import NOM_035_STPS_2016 from './components/pages/servicios/NOM_035_STPS_2016/NOM_035_STPS_2016.vue'
 import UNE_93200 from './components/pages/servicios/UNE_93200/UNE_93200.vue'
 
+import BoletinesHome from '@/components/pages/boletines/BoletinesHome.vue'
+import Aplicación_del_protocolo from '@/components/pages/boletines/Aplicación_del_protocolo.vue'
+import Hablemos_de_la_calidad from '@/components/pages/boletines/Hablemos_de_la_calidad.vue'
+import Cartas_de_servicio_UNE_93200 from '@/components/pages/boletines/Cartas_de_servicio_UNE_93200.vue'
+import Empresas_tóxicas from '@/components/pages/boletines/Empresas_tóxicas.vue'
+import COMO_VAMOS_CON_LA_IGUALDAD_SALARIAL from '@/components/pages/boletines/CÓMO_VAMOS_CON_LA_IGUALDAD_SALARIAL.vue'
+import Discriminación_laboral from '@/components/pages/boletines/Discriminación_laboral.vue'
+import Equidad_o_igualdad from '@/components/pages/boletines/Equidad_o_igualdad.vue'
+import La_diversidad from '@/components/pages/boletines/La_diversidad.vue'
+import Índice_de_corrupción from '@/components/pages/boletines/Índice_de_corrupción.vue'
+import Cartas_de_servicios from '@/components/pages/boletines/Cartas_de_servicios.vue'
+import Teletrabajar from '@/components/pages/boletines/Teletrabajar.vue'
+import Planes_de_Igualdad from '@/components/pages/boletines/Planes_de_Igualdad.vue'
+import Programa_de_implantación from '@/components/pages/boletines/Programa_de_implantación.vue'
+import Qué_alcances_tiene_un_Sistema_de_Gestión_Antisoborno from '@/components/pages/boletines/Qué_alcances_tiene_un_Sistema_de_Gestión_Antisoborno.vue'
+import Diez_puntos_críticos from '@/components/pages/boletines/10_puntos_críticos.vue'
+import El_soborno_lubricante_y_engrudo from '@/components/pages/boletines/El_soborno_lubricante_y_engrudo.vue'
+import El_soborno from '@/components/pages/boletines/El_soborno.vue'
+import WhatsApp from '@/components/pages/boletines/WhatsApp.vue'
+import Violencia_Laboral from '@/components/pages/boletines/Violencia_Laboral.vue'
+
 // 2. Define some routes
 // Each route should map to a component.
 const routes = [
@@ -70,6 +91,27 @@ const routes = [
     { path: '/ISO_TS_54001:2019', component: ISO_TS_54001_2019 },
     { path: '/NOM-035-STPS-2016', component: NOM_035_STPS_2016 },
     { path: '/UNE_93200', component: UNE_93200 },
+
+    { path: '/boletinesTEST', component: BoletinesHome },
+    { path: '/boletines/Aplicaci%C3%B3n_del_protocolo', component: Aplicación_del_protocolo },
+    { path: '/boletines/Hablemos_de_la_calidad', component: Hablemos_de_la_calidad },
+    { path: '/boletines/Cartas_de_servicio_UNE_93200', component: Cartas_de_servicio_UNE_93200 },
+    { path: '/boletines/Empresas_t%C3%B3xicas', component: Empresas_tóxicas },
+    { path: '/boletines/C%C3%93MO_VAMOS_CON_LA_IGUALDAD_SALARIAL', component: COMO_VAMOS_CON_LA_IGUALDAD_SALARIAL },
+    { path: '/boletines/Discriminaci%C3%B3n_laboral', component: Discriminación_laboral },
+    { path: '/boletines/Equidad_o_igualdad', component: Equidad_o_igualdad },
+    { path: '/boletines/La_diversidad', component: La_diversidad },
+    { path: '/boletines/%C3%8Dndice_de_corrupci%C3%B3n', component: Índice_de_corrupción },
+    { path: '/boletines/Cartas_de_servicios', component: Cartas_de_servicios },
+    { path: '/boletines/Teletrabajar', component: Teletrabajar },
+    { path: '/boletines/Planes_de_Igualdad', component: Planes_de_Igualdad },
+    { path: '/boletines/Programa_de_implantaci%C3%B3n', component: Programa_de_implantación },
+    { path: '/boletines/Qu%C3%A9_alcances_tiene_un_Sistema_de_Gesti%C3%B3n_Antisoborno', component: Qué_alcances_tiene_un_Sistema_de_Gestión_Antisoborno },
+    { path: '/boletines/10_puntos_cr%C3%ADticos', component: Diez_puntos_críticos },
+    { path: '/boletines/El_soborno_lubricante_y_engrudo', component: El_soborno_lubricante_y_engrudo },
+    { path: '/boletines/El_soborno', component: El_soborno },
+    { path: '/boletines/WhatsApp', component: WhatsApp },
+    { path: '/boletines/Violencia_Laboral', component: Violencia_Laboral },
 ]
 
 // 3. Create the router instance and pass the `routes` option

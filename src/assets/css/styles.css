@@ -67,6 +67,11 @@ h3.my-h3 {
     text-align: center;
 }
 
+h5.my-h5 {
+    color: #5f676f;
+    text-align: center;
+}
+
 div.general-text {
     color: #444444;
     text-align: justify;
@@ -197,6 +202,24 @@ div.card-cursos {
     font-size: medium;
 }
 /*cursos cards end*/
+
+/*boletines*/
+.crop-text-4{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    text-align: justify;
+  }
+#boletines h5{
+    font-weight: bold;
+}
+#boletines img{
+    margin-bottom: 1em;
+}
+/*boletines end*/
 
 /* Capacitacion tables*/
 div.table-row {
