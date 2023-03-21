@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     
     <div class="col-12 table-title">
               Nombre del curso: Pensamiento basado en riesgos con base en la Norma ISO 31000:2018, Sistema de Gestión de Riesgos

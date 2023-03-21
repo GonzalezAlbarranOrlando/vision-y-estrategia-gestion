@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5">
+  <div class="container-fluid">
     <h1 class="my-h1">Gestión de la Innovación</h1>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">

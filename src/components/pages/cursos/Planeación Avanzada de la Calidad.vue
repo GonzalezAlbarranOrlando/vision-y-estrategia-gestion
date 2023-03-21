@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5">
+  <div class="container-fluid">
     <h1 class="my-h1">Planeación Avanzada de la Calidad</h1>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
