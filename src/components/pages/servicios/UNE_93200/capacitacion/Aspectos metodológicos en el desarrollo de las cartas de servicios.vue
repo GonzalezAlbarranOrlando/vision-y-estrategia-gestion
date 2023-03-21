@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     
     <div class="col-12 table-title">
               Nombre del curso: Aspectos metodológicos en el desarrollo de las

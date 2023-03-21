@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     
     <div class="col-12 table-title">
               Nombre del curso: Implementador(a) líder en la norma ISO 37001:2016
