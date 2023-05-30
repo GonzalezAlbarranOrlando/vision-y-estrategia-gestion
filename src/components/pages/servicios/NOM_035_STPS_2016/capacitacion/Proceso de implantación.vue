@@ -29,17 +29,112 @@
             <div class="table-blue">
               <b>Temario:</b>
               <p>
-                <ol>
-                  <li>Introducción a la NOM-035-STPS-2018.</li>
-                  <li>Procedimiento para integrar un comité.</li>
-                  <li>Procedimiento para capacitar a la alta dirección e integrantes del comité.</li>
-                  <li>Procedimiento para elaborar la política de prevención de riesgos psicosociales.</li>
-                  <li>Procedimiento para sensibilizar a toda la organización.</li>
-                  <li>Procedimiento para difundir la política de prevención de riesgos psicosociales en el centro de trabajo.</li>
-                  <li>Procedimiento para identificar y analizar los factores de riesgo psicosociales en el centro de trabajo.</li>
-                  <li>Procedimiento para evaluar el entorno laboral del centro de trabajo.</li>
-                  <li>Procedimiento para prevenir y tomar acciones sobre los factores detectados en el centro de trabajo.</li>
-                </ol>
+                <ul class="ul-clean">
+                  <li>
+                    Unidad 1. ¿Por qué es necesaria la NOM-035-STPS-2018?
+                  </li>
+                  <ul class="ul-clean">
+                    <li>
+                      1.1 ¿Qué son los factores de riesgo psicosocial en el trabajo?
+                    </li>
+                    <li>
+                      1.2 ¿Cómo se agrupan los factores de riesgo psicosocial?
+                    </li>
+                    <li>
+                      1.3 ¿Cuál es el alcance y el objetivo de la NOM-035-STPS-2018?
+                    </li>
+                    <li>
+                      1.4 ¿A quién le aplica la NOM-035-STPS-2018?
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="ul-clean">
+                  <li>
+                    Unidad 2. Obligaciones generales del patrón y de los trabajadores
+                  </li>
+                  <ul class="ul-clean">
+                    <li>
+                      2.1 Obligaciones del patrón
+                    </li>
+                    <ul class="ul-clean">
+                      <li>
+                        2.1.1 Política de prevención de riesgos psicosociales
+                      </li>
+                      <li>
+                        2.1.2 Identificar y analizar los factores de riesgo psicosocial y evaluar el entorno organizacional
+                      </li>
+                      <li>
+                        2.1.3 Identificar a los trabajadores que fueron sujetos a acontecimientos traumáticos severos durante o con motivo del trabajo
+                      </li>
+                      <li>
+                        2.1.4 Adoptar medidas de prevención y control
+                      </li>
+                      <li>
+                        2.1.5 Difundir y proporcionar información a los trabajadores
+                      </li>
+                      <li>
+                        2.1.6 Practicar exámenes médicos
+                      </li>
+                      <li>
+                        2.1.7 Registros
+                      </li>
+                    </ul>
+                  </ul>
+                </ul>
+                <ul class="ul-clean">
+                  <li>
+                    Unidad 3. Identificación y análisis de los factores de riesgo psicosocial y evaluación de los factores de riesgo psicosocial
+                  </li>
+                  <ul class="ul-clean">
+                    <li>
+                      3.1 ¿Que comprende la identificación y análisis de los factores de riesgo psicosocial?
+                    </li>
+                    <li>
+                      3.2 Elementos que se deben evaluar como parte del entorno organizacional
+                    </li>
+                    <li>
+                      3.3 Métodos para identificar y analizar los factores de riesgo psicosocial y evaluar el entorno organizacional
+                    </li>
+                    <li>
+                      3.4 Informe de resultados de la evaluación
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="ul-clean">
+                  <li>
+                    Unidad 4. Medidas de prevención y medidas de control
+                  </li>
+                  <ul class="ul-clean">
+                    <li>
+                      4.1 Medidas de prevención generales
+                    </li>
+                    <li>
+                      4.2 Acciones y programas para la prevención específicas
+                    </li>
+                    <li>
+                      4.3 Medidas de control: Programa para la atención y niveles de intervención
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="ul-clean">
+                  <li>
+                    Unidad 5. ¿Cómo se evaluará el cumplimiento de la NOM-035-STPS-2018?
+                  </li>
+                  <ul class="ul-clean">
+                    <li>
+                      5.1 Unidades de verificación
+                    </li>
+                    <li>
+                      5.2 Fecha de entrada en vigor
+                    </li>
+                    <li>
+                      5.3 Sanciones administrativas
+                    </li>
+                    <li>
+                      5.4 Información complementaria
+                    </li>
+                  </ul>
+                </ul>
               </p>
             </div>
             <div class="table-white">
