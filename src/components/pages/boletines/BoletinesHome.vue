@@ -664,6 +664,29 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-lg-3 py-3">
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-img-top"
+              src="@/assets/img/boletines/fraude.jpg"
+              alt="..."
+            />
+            <h5 class="my-h5 text-truncate">El fraude también es corrupción</h5>
+            <p class="crop-text-4 general-text">
+              La Estafa Maestra, sumada de los niveles históricos de los indicadores internacionales que dicen que cada año somos un país más corrupto, dieron origen al nacimiento del Sistema Nacional Anticorrupción (SNA).
+              <br>
+              El problema de la concepción original del Sistema Anticorrupción es que solo le permite enfocarse (así lo percibo) a evitar que se vuelvan a presentar casos como La Estafa Maestra (EPN) o Segalmex (AMLO), cuando vemos que estos casos solo se dan de a uno por sexenio.
+            </p>
+            <router-link
+              aria-current="page"
+              to="/boletines/El_fraude_tambien_es_corrupcion"
+              class="btn btn-light btn-sm"
+              >Ver más</router-link
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

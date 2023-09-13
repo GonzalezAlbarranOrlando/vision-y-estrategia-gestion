@@ -56,6 +56,7 @@ import El_soborno from '@/components/pages/boletines/El_soborno.vue'
 import WhatsApp from '@/components/pages/boletines/WhatsApp.vue'
 import Violencia_Laboral from '@/components/pages/boletines/Violencia_Laboral.vue'
 import NOM037 from './components/pages/boletines/NOM037.vue'
+import El_fraude_tambien_es_corrupcion from './components/pages/boletines/El_fraude_tambien_es_corrupcion.vue'
 
 // 2. Define some routes
 // Each route should map to a component.
@@ -111,7 +112,8 @@ const routes = [
     { path: '/boletines/El_soborno', component: El_soborno },
     { path: '/boletines/WhatsApp', component: WhatsApp },
     { path: '/boletines/Violencia_Laboral', component: Violencia_Laboral },
-    { path: '/boletines/NOM-037', component: NOM037}
+    { path: '/boletines/NOM-037', component: NOM037},
+    { path: '/boletines/El_fraude_tambien_es_corrupcion', component: El_fraude_tambien_es_corrupcion}
 ]
 
 // 3. Create the router instance and pass the `routes` option
