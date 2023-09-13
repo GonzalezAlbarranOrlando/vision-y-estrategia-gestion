@@ -641,6 +641,29 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-lg-3 py-3">
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-img-top"
+              src="@/assets/img/boletines/nom037.jpg"
+              alt="..."
+            />
+            <h5 class="my-h5 text-truncate">Que es la NOM-037-STPS-2016 Teletrabajo-Condiciones de Seguridad y Salud en el Trabajo</h5>
+            <p class="crop-text-4 general-text">
+              <em>
+                Tras la llegada de la pandemia de Covid-19 y las medidas de confinamiento impuestas por los distintos gobiernos, distintos empleos tuvieron que mudar sus operaciones de un espacio laboral común a modalidades remotas de conexión e interacción apoyados por distintas aplicaciones cibernéticas. Esto, como cualquier imprevisto que pueda ocurrir trajo consigo un proceso de adaptación y regulación por parte de los distintos espacios de trabajo. 
+              </em>
+            </p>
+            <router-link
+              aria-current="page"
+              to="/boletines/NOM-037"
+              class="btn btn-light btn-sm"
+              >Ver más</router-link
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
